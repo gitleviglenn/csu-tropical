@@ -478,29 +478,6 @@
   keyword1: data assimilation
   keyword2: GPU
   keyword3: optimization
-- id: DesRosiers_etal_GRL2023
-  year: 2023
-  title: Observed Relationships between Tropical Cyclone Vortex Height, Intensity, and Intensification Rate
-  author1: bell
-  author2: desrosiers
-  author3: klotzbach
-  authors: DesRosiers, A., M. M. Bell, P. Klotzbach, M. Fischer, and P. Reasor
-  journal: Geophys. Res. Letters
-  others: in press
-  doi: 
-  keypoint1: Vertical extent of the tropical cyclone wind field correlates strongly with current intensity in observed storms. 
-  keypoint2: Deep vertical vortex structure is always present in observed cases meeting a pressure-based rapid intensification definition.
-  keypoint3: Vortex height decreases with increasing vertical wind shear, but taller storms intensify more in moderate shear.
-  abstract: As a tropical cyclone (TC) intensifies, the tangential wind field expands vertically and increases in magnitude. Observations and modeling support vortex height as an important TC structural characteristic. The TC-RADAR dataset provides kinematic analyses for calculation of the height of the vortex (HOV) in observed storms. Analyses are azimuthally averaged with tangential wind values taken along the radius of maximum winds. A threshold-based technique is used to determine the HOV. A fixed threshold HOV strongly correlates with current intensity. A dynamic HOV metric quantifies vertical decay of tangential wind with reduced dependency on intensity. Statistically significant differences are present between dynamic HOV values in groups of steady-state, intensifying, and rapidly-intensifying cases categorized by subsequent changes in pressure. A tall vortex is always observed in cases meeting a pressure-based rapid intensification definition. Taller vortices are also evident with slower intensification. Results suggest HOV may be an important predictor for TC intensification.
-  summary: As a tropical cyclone gets stronger, the wind field of the storm grows taller in the atmosphere. The height-intensity relationship is known to be present from the beginning of a tropical cyclone until its peak strength. A large dataset of airborne radar observations in tropical cyclones is used to show the strength of the relationship between vortex height and current intensity. A tall vortex is always present in observed cases prior to rapid intensification during which the minimum surface pressure at the storm center drops at a high rate. Drops in minimum surface pressure are associated with increases in wind and size in tropical cyclones. A taller vortex also favors intensification at slower rates. Improved understanding of the role that tropical cyclone height plays during intensification may be helpful for forecasting the intensity of these storms.
-  image: 
-  caption: 
-  acknowledgement: 
-  bibtex: false
-  pdf: ../Publications/papers/
-  keyword1: false
-  keyword2: false
-  keyword3: false
 - id: DesRosiers_etal_MWR2022
   year: 2022
   title: Vertical vortex development of Hurricane Michael (2018) during Rapid Intensification
@@ -1413,29 +1390,6 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword1: false
   keyword2: false
   keyword3: false
-- id: Razin_etal_BAMS2022
-  year: 2023
-  title: Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED)
-  author1: bell
-  author2: razin
-  author3: false
-  authors: Razin*, N., C. J. Slocum, J. A. Knaff, P. J. Brown, and M. M. Bell
-  journal: Bull. Amer. Meteor. Soc.
-  others:  in press
-  doi: https://doi.org/10.1175/BAMS-D-21-0052.1
-  keypoint1: 
-  keypoint2: 
-  keypoint3: 
-  abstract: To study tropical cyclones and generate forecast applications using satellite observations, researchers often consolidate disparate sources of raw and ancillary data. Data consolidation involves obtaining, co-locating and inter-calibrating data from different sensors and derived prod- ucts; calculating environmental diagnostics from a homogeneous source; and standardizing these various products for a straightforward analysis. To alleviate pre-processing issues and provide a long-term, global digital dataset of tropical cyclone satellite observations, we construct the Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED). TC PRIMED contains tropical-cyclone-centric 1) inter-calibrated, multi-channel, multi-sensor mi- crowave brightness temperatures, 2) retrieved rainfall from NASA’s Goddard Profiling Algorithm (GPROF), 3) nearly coincident geostationary satellite infrared brightness temperatures and derived metrics, 4) tropical cyclone position and intensity information, 5) ECMWF fifth-generation reanal- ysis fields and derived environmental diagnostics, and 6) precipitation radar observations from the TRMM and GPM Core Observatory satellites. TC PRIMED consists of over 176,000 overpasses of 2,101 storms from 1998 to 2019, providing researchers with an analysis-ready dataset to promote and support research into improving our understanding of the relationship between tropical cyclone convective and precipitation structure, intensity, and environment. Here, we briefly describe data sources and processing steps to create TC PRIMED. To demonstrate TC PRIMED’s potential utility for studying important tropical cyclone processes and for application development, we present a shear-relative composite analysis of several multi-sensor satellite variables relative to the tropical cyclone lifetime maximum intensity. The composite analysis provides a simple example of how TC PRIMED can benefit future studies to advance our understanding of tropical cyclones and improve forecasts.
-  summary: false
-  image: 
-  caption: 
-  acknowledgement: 
-  bibtex: false
-  pdf: ../Publications/papers/Razin_etal_BAMS2022.pdf
-  keyword1: false
-  keyword2: false
-  keyword3: false
 - id: saundersess2020
   year: 2020
   title: Quantifying the Probability and Causes of the Surprisingly Active 2018 North
@@ -2085,13 +2039,13 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword3: Forecasting
 - id: Zhang_etal_WAF2023
   year: 2023
-  title: "Improving Monsoonal Precipitation Nowcast using Satellite All-Sky Infrared Radiances: Real-Time Ensemble Data Assimilation and Forecast during PRECIP"
+  title: "Improving Short-Term QPF Using Geostationary Satellite All-Sky Infrared Radiances: Real-Time Ensemble Data Assimilation and Forecast during the PRECIP 2020 and 2021 Experiments"
   author1: bell
   author2: false
   author3: false
   authors: Zhang, Y., X.-C. Chen, M. M. Bell
   journal: Wea. Forecasting
-  others: in press
+  others: 38, 4 
   doi: https://doi.org/10.1175/WAF-D-22-0156.1
   keypoint1: 
   keypoint2: 
@@ -2101,8 +2055,8 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   image: 
   caption: 
   acknowledgement: "We would like to thank Drs. Rosimar Rios-Berrios (NCAR), James H. Ruppert, Jr. (University of Oklahoma), and many PRECIP participants for their helpful discussions and feedback on the configuration of the PSU WRF-EnKF system and the planning of the real-time modeling for the field campaign, and Dr. Kristen Rasmussen (Colorado State University) for securing the computational resources for the 2022 real-time forecasts. We would also like to thank the three anonymous reviewers, whose comments prominently improved this manuscript. This work is supported by NSF grants AGS-1712290, AGS-1854607, and AGS-1854559, ONR grant N000141812517, NOAA NGGPS grant through University of Michigan Subcontract 3004628721, NOAA grant NA18OAR4590369, and NASA grant 80NSSC19K0728. The real-time and retrospective data assimilations and forecasts are performed on the Cheyenne supercomputer (doi:10.5065/D6RX99HX) provided by NCAR's Computational and Information Systems Laboratory (CISL) sponsored by the NSF, and the Stampede 2 supercomputer of the Texas Advanced Computing Center (TACC) through the Extreme Science and Engineering Discovery Environment (XSEDE) program (now the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support program, or ACCESS) supported by the National Science Foundation (NSF)."
-  bibtex: false
-  pdf: ../Publications/papers/Zhang_etal_WAF2023_EOR.pdf
+  bibtex: ../Publications/bibtex/Zhang_etal_WAF2023.bib
+  pdf: ../Publications/papers/Zhang_etal_WAF2023.pdf
   keyword1: false
   keyword2: false
   keyword3: false
@@ -2456,4 +2410,1262 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword1: El Nino
   keyword2: Seasonal
   keyword3: Typhoon Onset
+- id: DesRosiers_Bell_AIES24.yml
+  year: 2024
+  title: "Airborne Radar Quality Control with Machine Learning"
+  author1: desrosiers
+  author2: bell 
+  author3: false
+  authors: DesRosiers, A. J, and M. M. Bell
+  journal: Artificial Intelligence for the Earth Systems 
+  others:  3, e230064
+  doi: https://doi.org/10.1175/AIES-D-23-0064.1
+  keypoint1: Airborne Doppler radar provides detailed and targeted observations of winds and precipitation in weather systems but nonweather signals are often present and must be removed during quality control (QC). 
+  keypoint2: Previous automated QC procedures are suboptimal, often requiring time-consuming manual QC by radar experts to produce research quality analyses. 
+  keypoint3: A random forest (RF) machine learning model provides a proof-of-concept for an automated airborne radar QC procedure which can re-create results comparable to past manual QC efforts.
+  abstract: Airborne Doppler radar provides detailed and targeted observations of winds and precipitation in weather systems over remote or difficult-to-access regions that can help to improve scientific understanding and weather forecasts. Quality control (QC) is necessary to remove nonweather echoes from raw radar data for subsequent analysis. The complex decision-making ability of the machine learning random-forest technique is employed to create a generalized QC method for airborne radar data in convective weather systems. A manually QCed dataset was used to train the model containing data from the Electra Doppler Radar (ELDORA) in mature and developing tropical cyclones, a tornadic supercell, and a bow echo. Successful classification of ~96% and ~93% of weather and nonweather radar gates, respectively, in withheld testing data indicate the generalizability of the method. Dual-Doppler analysis from the genesis phase of Hurricane Ophelia (2005) using data not previously seen by the model produced a comparable wind field to that from manual QC. The framework demonstrates a proof of concept that can be applied to newer airborne Doppler radars. 
+  summary: Airborne Doppler radar is an invaluable tool for making detailed measurements of wind and precipitation in weather systems over remote or difficult to access regions, such as hurricanes over the ocean. Using the collected radar data depends strongly on quality control procedures to classify weather and non-weather radar echoes, and to then remove the latter before subsequent analysis or assimilation into numerical weather prediction models. Prior quality control techniques require interactive editing and subjective classification by trained researchers and can demand considerable time for even small amounts of data. This study describes a new machine learning algorithm that is trained on past quality control efforts from radar experts, resulting in an accurate, fast technique with far less user input required that can greatly reduce the time required for quality control. The new technique is based on random forest, which is a machine learning model composed of decision trees, to classify weather and non-weather radar echoes. Continued efforts to build on this technique could benefit future weather forecasts by quickly and accurately quality-controlling data from other airborne radars for research or operational meteorology.
+  image: ../Publications/figures/DesRosiers_Bell_2024_fig06.jpg
+  caption: A range–height indicator scan from the ELDORA radar plotted with Py-ART showing the (a) interactive, (b) MLQC, and (c) raw velocity fields at 2127 UTC 6 Sep 2005. (d) A horizontal cross section at 2-km altitude of reflectivity (colors; dBZ) and analyzed winds (vectors) using interactively QCed data centered at 2123 UTC. (e) A vertical cross section taken from west to east through the most intense convection, showing the reflectivity (color shading) and vertical wind component (black contours, in 1 m s−1 intervals). (f),(g) The same analysis as in (d) and (e), but using the ML method for QC. The path of the radar beam from the scan in (a)–(c) is shown as a white line in (f), and location of the cross section is shown as a dashed cyan line in (d). 
+  acknowledgement: This research was supported by National Science Foundation Awards OAC-1661663 and AGS-2103776, Office of Naval Research Award N000142012069, and NOAA APAR Risk Reduction Award NA19OAR4590245. We thank Bruno Melli for efforts that provided initial direction to the pro- ject and Wen-Chau Lee, Huaqing Cai, and Hannah Murphey for the original interactive QC of the dataset. We thank NCAR’s Earth Observing Laboratory for the ELDORA data collection.
+  bibtex: ../Publications/bibtex/DesRosiers_Bell_AIES2024.bib 
+  pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
+  keyword1: Airborne Radar 
+  keyword2: Machine Learning
+  keyword3: Weather forecast  
+- id: Klotzbach_etal_GRL2023.yml
+  year: 2023
+  title: "Influence of the Madden-Julian Oscillation on Continental United States Hurricane Landfalls"
+  author1: klotzbach
+  author2: bell 
+  author3: false
+  authors: Klotzbach, P. J, and C. J. Schreck, and G. P. Compo, and K. M. Wood and E. C. J. Oliver and S. G. Bowen, and M. M. Bell
+  journal: Geophysical Research Letters
+  others:  50, e2023GL102762
+  doi: https://doi.org/10.1029/2023GL102762
+  keypoint1: The Madden-Julian oscillation (MJO) significantly impacts continental US hurricane landfall frequency 
+  keypoint2: Gulf Coast hurricane landfalls are favored when the MJO is enhancing Western Pacific/Western Hemisphere convection
+  keypoint3: East Coast hurricane landfalls are favored when the MJO is enhancing Indian Ocean/Maritime Continent convection
+  abstract: The Madden-Julian oscillation (MJO) significantly impacts North Atlantic hurricanes, with increased hurricane activity occurring when the MJO enhances convection over Africa and the tropical Indian Ocean and suppressed hurricane activity occurring when the MJO enhances convection over the tropical Pacific. Using data from 1905 to 2015, we find more tropical cyclones (TCs) make landfall in the continental United States when the MJO enhances tropical Indian Ocean convection. In addition, when the MJO enhances Western Pacific and Western Hemisphere convection, TC activity is preferentially favored in the Caribbean, leading to more Gulf Coast landfalls. As MJO-enhanced convection moves to the Indian Ocean and Maritime Continent, more storms form in the tropical Atlantic, favoring Florida Peninsula and East Coast landfalls. The MJO's TC steering wind modulation appears to be secondary to its genesis location modulation. 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: We thank the reviewers for helpful comments that improved the manu-script. P. Klotzbach acknowledges support from the G. Unger Vetlesen Foundation. M. Bell was supported by Office of Naval Research Grant N000142012069. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooper-ative Agreement NA19NES432000. E.C.J. Oliver was supported by NSERC Discovery Grant RGPIN-05255-2018. G. P. Compo was supported by the NOAA Cooperative Agreement with CIRES, NA17OAR4320101 and NA22OAR4320151 and NOAA's Physical Sciences Laboratory. K. M. Wood acknowledges support from the Mississippi State University Department of Geosciences.
+  bibtex: ../Publications/bibtex/DesRosiers_Bell_AIES2024.bib 
+  pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
+  keyword1: Hurricane Landfall
+  keyword2: Madden-Julian oscillation
+  keyword3: Gulf coast hurricanes
+- id: DesRosiers_etal_GRL2023.yml
+  year: 2023
+  title: Observed Relationships between Tropical Cyclone Vortex Height, Intensity, and Intensification Rate
+  author1: bell
+  author2: desrosiers
+  author3: klotzbach
+  authors: DesRosiers, A., M. M. Bell, P. Klotzbach, M. Fischer, and P. Reasor
+  journal: Geophys. Res. Letters
+  others: 50, e2022GL101877 
+  doi: 
+  keypoint1: Vertical extent of the tropical cyclone wind field correlates strongly with current intensity in observed storms. 
+  keypoint2: Deep vertical vortex structure is always present in observed cases meeting a pressure-based rapid intensification definition.
+  keypoint3: Vortex height decreases with increasing vertical wind shear, but taller storms intensify more in moderate shear.
+  abstract: As a tropical cyclone (TC) intensifies, the tangential wind field expands vertically and increases in magnitude. Observations and modeling support vortex height as an important TC structural characteristic. The TC-RADAR dataset provides kinematic analyses for calculation of the height of the vortex (HOV) in observed storms. Analyses are azimuthally averaged with tangential wind values taken along the radius of maximum winds. A threshold-based technique is used to determine the HOV. A fixed threshold HOV strongly correlates with current intensity. A dynamic HOV metric quantifies vertical decay of tangential wind with reduced dependency on intensity. Statistically significant differences are present between dynamic HOV values in groups of steady-state, intensifying, and rapidly-intensifying cases categorized by subsequent changes in pressure. A tall vortex is always observed in cases meeting a pressure-based rapid intensification definition. Taller vortices are also evident with slower intensification. Results suggest HOV may be an important predictor for TC intensification.
+  summary: As a tropical cyclone gets stronger, the wind field of the storm grows taller in the atmosphere. The height-intensity relationship is known to be present from the beginning of a tropical cyclone until its peak strength. A large dataset of airborne radar observations in tropical cyclones is used to show the strength of the relationship between vortex height and current intensity. A tall vortex is always present in observed cases prior to rapid intensification during which the minimum surface pressure at the storm center drops at a high rate. Drops in minimum surface pressure are associated with increases in wind and size in tropical cyclones. A taller vortex also favors intensification at slower rates. Improved understanding of the role that tropical cyclone height plays during intensification may be helpful for forecasting the intensity of these storms.
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/DesRosiers_etal_2023.bib 
+  pdf: ../Publications/papers/DesRosiers_etal_2023.pdf
+  keyword1: Tropical Cyclone Vortex Height 
+  keyword2: Tropical Cyclone Vortex Intensity 
+  keyword3: Tropical Cyclone Intensification Rate 
+- id: Razin_etal_2023.yml
+  year: 2023
+  title: Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED)
+  author1: bell
+  author2: razin
+  author3: false
+  authors: Razin*, N., C. J. Slocum, J. A. Knaff, P. J. Brown, and M. M. Bell
+  journal: Bull. Amer. Meteor. Soc.
+  others:  104 
+  doi: https://doi.org/10.1175/BAMS-D-21-0052.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: To study tropical cyclones and generate forecast applications using satellite observations, researchers often consolidate disparate sources of raw and ancillary data. Data consolidation involves obtaining, co-locating and inter-calibrating data from different sensors and derived prod- ucts; calculating environmental diagnostics from a homogeneous source; and standardizing these various products for a straightforward analysis. To alleviate pre-processing issues and provide a long-term, global digital dataset of tropical cyclone satellite observations, we construct the Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED). TC PRIMED contains tropical-cyclone-centric 1) inter-calibrated, multi-channel, multi-sensor mi- crowave brightness temperatures, 2) retrieved rainfall from NASA’s Goddard Profiling Algorithm (GPROF), 3) nearly coincident geostationary satellite infrared brightness temperatures and derived metrics, 4) tropical cyclone position and intensity information, 5) ECMWF fifth-generation reanal- ysis fields and derived environmental diagnostics, and 6) precipitation radar observations from the TRMM and GPM Core Observatory satellites. TC PRIMED consists of over 176,000 overpasses of 2,101 storms from 1998 to 2019, providing researchers with an analysis-ready dataset to promote and support research into improving our understanding of the relationship between tropical cyclone convective and precipitation structure, intensity, and environment. Here, we briefly describe data sources and processing steps to create TC PRIMED. To demonstrate TC PRIMED’s potential utility for studying important tropical cyclone processes and for application development, we present a shear-relative composite analysis of several multi-sensor satellite variables relative to the tropical cyclone lifetime maximum intensity. The composite analysis provides a simple example of how TC PRIMED can benefit future studies to advance our understanding of tropical cyclones and improve forecasts.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../publications/bibtex/Razin_etal_2023.bib 
+  pdf: ../publications/papers/Razin_etal_2023.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: NAM_etal_2023
+  year: 2023
+  title: Bifurcation Points for Tropical Cyclone Genesis and Intensification in Sheared and Dry Environments
+  author1: bell
+  author2: false
+  author3: false
+  authors: Nam, C. C., M. M. Bell, and D. Tao
+  journal: Journal of the Atmospheric Sciences 
+  others: 80(9), 2239-2259
+  doi: https://doi.org/10.1175/JAS-D-22-0100.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: The combination of moderate vertical wind shear (VWS) and dry environments can produce the most uncertain scenarios for tropical cyclone (TC) genesis and intensification. We investigated the sources of increased uncertainty of TC development under moderate VWS and dry environments using a set of Weather Research and Forecasting (WRF) ensemble simulations. Statistical analysis of ensemble members for precursor events and time-lagged correlations indicates that successful TC development is dependent on a specific set of precursor events. A deficiency in any of these precursor events leads to a fail- ure of TC intensification. The uncertainty of TC intensification can be largely attributed to the probabilistic characteristics of precursor events lining up together before TC intensification. The critical bifurcation point between successful and failed trials in these idealized simulations is the sustained vortex alignment process. Even for the failed intensification cases, most simulations showed deep organized convection, which reformed a midlevel vortex. However, for the failed cycles, the new midlevel vortex could not sustain vertical alignment with the low-level center and was carried away by VWS shortly. Under the most uncertain setup (VWS = 7.5 m/s and 50% moisture), the latest-developing ensemble member had seven events of tilt decreasing and increasing again that occurred during the 8 days before genesis. Some unsuccessful precursor events looked very close to the successful ones, implying limits on the intrinsic predictability for TC genesis and intensification in moderately sheared and dry environments.
+  summary: false 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../publications/bibtex/Nam_etal_2023.bib
+  pdf: ../publications/papers/Nam_etal_2023.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Barbero_etal_24.yml
+  year: 2024
+  title: A Potential Vorticity Diagnosis of Tropical Cyclone Track Forecast Errors
+  author1: barbero 
+  author2: bell 
+  author3: klotzbach 
+  authors: Barbero, Tyler W., and Bell, Michael M. and Chen, Jan-Huey and Klotzbach, Philip J.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  16, e2023MS004008
+  doi: https://doi.org/10.1029/2023MS004008
+  keypoint1: Contributions to tropical cyclone movement from individual synoptic systems are quantified using piecewise potential vorticity inversion 
+  keypoint2: Forecast errors of the deep layer mean steering flow are the main source of the track errors for Hurricanes Harvey, Irma, and Maria (2017) 
+  keypoint3: Forecast errors of the Bermuda High dominated the steering flow errors for the 2017 hurricane season
+  abstract: Tropical cyclone (TC) track forecasting provides essential guidance for coastal communities. However, track forecast errors still occur, highlighting the need for continued research into error sources. Piecewise potential vorticity (PV) inversion is used systematically to quantitatively diagnose errors in track forecasts in four models during the 2017 Atlantic hurricane season. The deep layer mean steering flow (DLMSF) provides a sufficient proxy for hurricane movement, and DLMSF errors are correlated with TC track errors. Analysis of track forecasts for Hurricanes Harvey, Irma, and Maria reveals that their track errors are attributed to steering errors caused by misrepresentations of specific pressure systems. Harvey's westward track error in the GFS resulted from zonal wind errors from the Continental High, while Irma's northward track error in the SHiELD gfsIC resulted from meridional wind errors in the Bermuda High and Continental High. Maria's southward track error in the IFS resulted from meridional wind errors in the Bermuda High and a misrepresentation of Jose to Maria's northwest. The mean absolute error of the DLMSF shows that the Bermuda High contributed the most to steering flow errors in the cases examined. Our results show that piecewise PV inversion can identify the sources of biases in TC track forecasts. The correction of these biases may lead to improved track forecasts. Quantitative diagnostics presented here provide useful information for future model development. 
+  summary: A tropical cyclone typically moves with the environmental wind, which is generated by several large‐scale pressure systems (e.g., Bermuda High, Continental High) in the atmosphere. Weather models can predict the path of tropical cyclones, but these forecasts have errors. Tropical cyclones often bring devastation along their path, so it is important to mitigate track errors to provide better warnings for impacted communities. Here, we use a diagnostic technique called “piecewise potential vorticity inversion” to understand how the environmental wind causes errors in tropical cyclone tracks. In three different examples of hurricane track forecasts, we show that errors in the predicted track are caused by errors in the environmental wind from specific pressure systems. By considering numerous cases, we can also identify model biases, or errors that are consistent throughout many forecasts. These errors are a result of errors in the models themselves. Overall, our results show that piecewise potential vorticity inversion is a useful diagnostic tool that has the potential to improve track forecasts through the identification of model biases. 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Barbero_etal_2024.bib 
+  pdf: ../Publications/papers/Barbero_etal_2024.pdf
+  keyword1: Tropical cyclone 
+  keyword2: piecewise potential vorticity
+  keyword3: deep layer mean steering flow
+- id: Tao_etal_23.yml
+  year: 2023
+  title: "The Quasi-Linear Absolute Angular Momentum Slope of Tropical Cyclones Under Rapid Intensification"
+  author1: bell
+  author2: false
+  author3: false
+  authors: Tao, Dandan and Nystrom, Robert and Bell, Michael
+  journal: Geophysical Research Letters
+  others:  50, e2023GL104583
+  doi: https://doi.org/10.1029/2023GL104583
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Abstract Tropical cyclone (TC) low-level tangential wind structure is known to be an important input for risk assessment (e.g., storm surge). However, a realistic TC wind structure model with easy implementation is still needed for many applications. In this study, we obtain an inner-core wind structure model purely from an empirical approach, which significantly reduces the complexity of TC wind profiles. From idealized simulations with different initial vortex structures, it is found that the absolute angular momentum (M) outside the radius of maximum wind (rm) is quasi-linear. This quasi-linear M slope in a normalized coordinate decreases with TC intensity. The consequent linear M slope wind model can largely capture the simulated TC inner-core wind structure and has the potential for many practical applications.
+  summary: 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Tao_etal_2023.bib 
+  pdf: ../Publications/papers/Tao_etal_2023.pdf
+  keyword1: absolute angular momentum 
+  keyword2: tangential wind
+  keyword3: tropical cyclone wind structure 
+- id: Chen_etal_23.yml
+  year: 2023
+  title: Research advances on internal processes affecting tropical cyclone intensity change from 2018–2022
+  author1: bell
+  author2: false 
+  author3: false
+  authors: Chen, Xiaomin and Rozoff, C. M. and Rogers, R. F. and Corbosiero, K. L. and Tao, D. and Gu, J and Judt, F. and Hendricks, E. A. and Wang, Y. and Bell, M. M. and Stern, D. P. and Musgrave, K. D. and Knaff, J. A. and Kaplan, J.
+  journal: Tropical Cyclone Research and Review
+  others:  12 
+  doi: https://doi.org/10.1016/j.tcrr.2023.05.001
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: 
+  abstract: This contribution summarizes the significant progress in a variety of topic areas related to internal tropical cyclone (TC) intensity change processes over 2018–2022 from the WMO Tenth International Workshop on Tropical Cyclones (IWTC-10). These topic areas include surface and boundary layer processes; TC internal structure and microphysical processes; and, radiation interactions with TCs. Recent studies better frame the uncertainty in the surface drag and enthalpy coefficients at high wind speeds. These parameters greatly impact TC intensity and it is therefore important that more direct measurements of these boundary layer parameters are made. Particularly significant scientific strides have been made in TC boundary layers. These advancements have been achieved through improved coupled models, large-eddy simulations, theoretical advance- ments, and detailed observations. It is now clear that the research field needs to better represent the eddy viscosity throughout the depth of the boundary layer. Furthermore, detailed study of coherent structures in TC boundary layers will likely be a propitious direction for the research community. Meanwhile, in-depth observational field campaigns and assiduous data analysis have made significant headway into verifying theory and modeling studies of intensification processes related to TC vortex alignment, efficient latent heating distributions, and overall 3D structure. Substantial efforts have also been made to better understand the intricate roles radiative processes play in TC evolution and intensity change. Finally, some promising progress has been made in the development of time-dependent theories of TC intensification and the predictability of internal TC intensity change. Overall, there have been well-earned gains in the understanding of intensity change processes intrinsic to the TC system, but the journey is not complete. This paper highlights some of the most relevant and important research areas that are still shedding new light into internal factors governing TC intensity change.
+  summary: 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Chen_etal_2023.bib 
+  pdf: ../Publications/papers/Chen_etal_2023.pdf
+  keyword1: Tropical cyclone 
+  keyword2: intensity 
+  keyword3: internal dynamics
+- id: Chand_etal_22.yml
+  year: 2022
+  title: Declining tropical cyclone frequency under global warming
+  author1: klotzbach
+  author2: false 
+  author3: false
+  authors: Savin S. Chand and Kevin J. E. Walsh and Suzana J. Camargo and James P. Kossin and Kevin J. Tory and Michael F. Wehner and Johnny C. L. Chan and Philip J. Klotzbach and Andrew J. Dowdy and Samuel S. Bell and Hamish A. Ramsay and Hiroyuki Murakami
+  journal: Nature Climate Change 
+  others:  12 
+  doi: https://doi.org/10.1038/s41558-022-01388-4
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Assessing the role of anthropogenic warming from temporally inhomogeneous historical data in the presence of large natu- ral variability is difficult and has caused conflicting conclusions on detection and attribution of tropical cyclone (TC) trends. Here, using a reconstructed long-term proxy of annual TC numbers together with high-resolution climate model experiments, we show robust declining trends in the annual number of TCs at global and regional scales during the twentieth century. The Twentieth Century Reanalysis (20CR) dataset is used for reconstruction because, compared with other reanalyses, it assimi- lates only sea-level pressure fields rather than utilize all available observations in the troposphere, making it less sensitive to temporal inhomogeneities in the observations. It can also capture TC signatures from the pre-satellite era reasonably well. The declining trends found are consistent with the twentieth century weakening of the Hadley and Walker circulations, which make conditions for TC formation less favourable.
+  summary: 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Chand_etal_2022.bib 
+  pdf: ../Publications/papers/Chand_etal_2022.pdf
+  keyword1: Tropical cyclone 
+  keyword2: historical trend 
+  keyword3: twentieth century reanalysis
+- id: Chand_etal_24.yml
+  year: 2024
+  title: 'Reply to: Limitations of reanalyses for detecting tropical cyclone trends'
+  author1: klotzbach
+  author2: false 
+  author3: false
+  authors: Savin S. Chand and Kevin J. E. Walsh and Suzana J. Camargo and James P. Kossin and Kevin J. Tory and Michael F. Wehner and Johnny C. L. Chan and Philip J. Klotzbach and Andrew J. Dowdy and Samuel S. Bell and Hamish A. Ramsay and Hiroyuki Murakami
+  journal: Nature Climate Change 
+  others:  14 
+  doi: https://doi.org/10.1038/s41558-023-01880-5
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: 
+  summary: 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Chand_etal_2024.bib 
+  pdf: ../Publications/papers/Chand_etal_2024.pdf
+  keyword1: Tropical cyclone 
+  keyword2: historical trend 
+  keyword3: twentieth century reanalysis
+- id: Chang_etal_23.yml
+  year: 2023
+  title: An Extratropical Pathway for the Madden–Julian Oscillation’s Influence on North Atlantic Tropical Cyclones
+  author1: klotzbach
+  author2: false 
+  author3: false
+  authors: Chuan-Chieh Chang and Sandro W. Lubis and Karthik Balaguru and L. Ruby Leung and Samson M. Hagos and Philip J. Klotzbach
+  journal: Journal of Climate 
+  others:  36 
+  doi: https://doi.org/10.1175/JCLI-D-23-0251.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: This study investigates the combined impacts of the Madden–Julian oscillation (MJO) and extratropical anticyclonic Rossby wave breaking (AWB) on subseasonal Atlantic tropical cyclone (TC) activity and their physical connections. Our results show that during MJO phases 2–3 (enhanced Indian Ocean convection) and 6–7 (enhanced tropical Pacific convection), there are significant changes in basinwide TC activity. The MJO and AWB collaborate to suppress basinwide TC activity during phases 6–7 but not during phases 2–3. During phases 6–7, when AWB occurs, various TC metrics including hurricanes, accumulated cyclone energy, and rapid intensification probability decrease by ∼50%–80%. Simultaneously, large-scale environmental variables, like vertical wind shear, precipitable water, and sea surface temperatures become extremely unfavorable for TC formation and intensification, compared to periods characterized by suppressed AWB activity during the same MJO phases. Further investigation reveals that AWB events during phases 6–7 occur in concert with the development of a stronger anticyclone in the lower troposphere, which transports more dry, stable extratropical air equatorward, and drives enhanced tropical SST cooling. As a result, individual AWB events in phases 6–7 can disturb the development of surrounding TCs to a greater extent than their phases 2–3 counterparts. The influence of the MJO on AWB over the western subtropical Atlantic can be attributed to the modulation of the convectively forced Rossby wave source over the tropical eastern Pacific. A significant number of Rossby waves initiating from this region during phases 5–6 propagate into the subtropical North Atlantic, preceding the occurrence of AWB events in phases 6–7.
+  summary: 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Chang_etal_2023.bib 
+  pdf: ../Publications/papers/Chang_etal_2023.pdf
+  keyword1: Tropical cyclone 
+  keyword2: Madden-Julian oscillation 
+  keyword3: subseasonal 
+- id: Silvers_etal_2024.yml
+  year: 2024
+  title: "The Impact of Rotation on Tropical Climate, the Hydrologic Cycle, and Climate Sensitivity"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Silvers, Levi G., and Stansfield, Alyssa M. and Reed, Kevin A.
+  journal: Geophysical Research Letters
+  others:  51, e2023GL105850
+  doi: https://doi.org/10.1029/2023GL105850
+  keypoint1: Rotation leads to a decreased intensity of the overturning circulation but increased mean precipitation and precipitable water 
+  keypoint2: Static stability increases with rotation, net radiative cooling remains approximately constant, resulting in a smaller subsidence velocity
+  keypoint3: Rotating experiments have a larger effective climate sensitivity relative to RCE experiments mostly due to longwave radiative changes
+  abstract: This work explores the impact of rotation on tropical convection and climate. As our starting point, we use the RCEMIP experiments as control simulations and run additional simulations with rotation. Compared to radiative convective equilibrium (RCE) experiments, rotating RCE (RRCE) experiments have a more stable and humid atmosphere with higher precipitation rates. The intensity of the overturning circulation decreases, water vapor is cycled through the troposphere at a slower rate, the subsidence fraction decreases, and the climate sensitivity increases. Several of these changes can be attributed to an increased flux of latent and sensible heat that results from an increase of near‐surface wind speed with rotation shortly after model initialization. The increased climate sensitivity results from changes of both the longwave cloud radiative effect and the longwave clear‐sky radiative fluxes. This work demonstrates the sensitivity of atmospheric humidity and surface fluxes of moisture and temperature to rotation.
+  summary: Many useful studies of the tropical regions of Earth have neglected to include rotation; however, phenomena such as tropical cyclones and atmospheric waves are fundamentally tied to rotation. This work compares models of the tropics with and without rotation. Compared to experiments without rotation, rotating experiments have a more humid and stable atmosphere. Although water vapor is cycled through the atmosphere at a slower rate, the precipitation rate increases. The climate sensitivity also increases due to changes in both clouds and water vapor. Many of these changes are the result of increased wind speeds. We argue that idealized modeling of Earth's tropical regions should include not just stationary experiments but also experiments that include rotation.
+  image: ../../Publications/figures/Silvers_etal_2024_fig1.png 
+  caption: ComparisonbetweenRCE(top)andRRCE(bottom)simulations.Ontheleftisshownanhourlyaveragedsnapshotoftheprecipitablewater(PW)anomalyand the wind vectors on the lowest model level. On the right is shown the RH on the 445 hPa pressure level, averaged over 1 week. Data is from the simulation with a constant SST of 300K at the end of the 2nd year of simulation using the CAM6 model.
+  acknowledgement: Reed and Silvers acknowledge support from NSF award numbers 1830729 and 2327958. Stansfield acknowledges support from NSF award number 2204138. We are grateful for the comments of an anonymous reviewer and a review by Timothy W. Cronin which helped to improve the manuscript. This material is based upon work supported by the National Center for Atmospheric Research, which is sponsored by the National Science Foundation under Cooperative Agreement No. 1852977. We acknowledge high‐performance computing support from Cheyenne (https://doi.org/10.5065/D6RX99HX) provided by NCAR's Computational and Information Systems Laboratory, sponsored by the National Science Foundation.
+  bibtex: ../Publications/bibtex/Silvers_etal_2024.bib 
+  pdf: ../Publications/papers/Silvers_etal_2024.pdf
+  keyword1: rotating radiative-convective equilibrium 
+  keyword2: hydrologic cycle
+  keyword3: climate sensitivity
+- id: Song_etal_GRL_2023.yml
+  year: 2023
+  title: "What Controls the Interannual Variation in Rapid Intensification Magnitude of Western North Pacific Tropical Cyclones?"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Song, Jinjie, and Klotzbach, Philip J., and Wei, Na, and Duan, Yihong
+  journal: Geophysical Research Letters
+  others:  50, e2023GL105084
+  doi: https://doi.org/10.1029/2023GL105084
+  keypoint1: Basin-averaged rapid intensification magnitude over the western North Pacific is significantly related to the West Pacific teleconnection
+  keypoint2: 'Strong increases (weak decreases)
+in rapid intensification magnitude occur at low (high) latitudes during a positive West Pacific phase'
+  keypoint3: West Pacific teleconnection controls interannual changes in rapid intensification magnitude mainly by modulating vertical wind shear
+  abstract: Abstract This study investigates the interannual variability of rapid intensification (RI) magnitude of western North Pacific (WNP) tropical cyclones. There is a significant correlation between basin-averaged RI magnitude during July–November and the simultaneous Western Pacific (WP) teleconnection index from 1982 to 2021. RI magnitude is, on average, larger (smaller) in positive (negative) WP phases. During a positive WP, RI magnitude changes exhibit a southwest-northeast dipolar pattern, with significant increases over the southwestern quadrant of the WNP and weak decreases over the northern part of the WNP. The WP teleconnection relates to RI magnitude primarily through modulation of 850–200-hPa vertical wind shear, with less influence from 850-hPa relative vorticity. The changes in these two dynamic conditions can be linked to WP-induced circulation anomalies at lower and upper levels. Our results highlight that different contributors may be responsible for changes in WNP RI occurrence and RI magnitude.
+  summary: 'Rapid intensification (RI) is commonly recognized as a sharp increase in tropical cyclone (TC) intensity over a short duration, posing a significant challenge for operational TC forecasting. Given concerns about climate change and its impacts on TC activity, there has been an increasing focus on temporal variations of RI. Unlike most previous publications investigating changes in RI occurrence, this study focuses on the interannual variability of RI magnitude, defined as the TC intensity increase during the 24-hr RI stage. There is a significant interannual correlation between basin-averaged RI magnitude over the western North Pacific during July–November and the simultaneous Western Pacific (WP) teleconnection index from 1982 to 2021. During a positive WP, RI magnitude significantly increases over the southwestern quadrant of the basin because of significantly reduced 850–200-hPa vertical wind shear. RI magnitude weakly decreases over the northern part of the basin, likely linked to slightly enhanced vertical wind shear. These vertical wind shear changes can be further linked to WP-induced circulation anomalies at lower and upper levels. Our results highlight the dominant (lesser) role of vertical wind shear (850-hPa relative vorticity) in controlling the interannual variation of RI magnitude over the western North Pacific.'
+  image: 
+  caption: 
+  acknowledgement: This work was funded by the National Natural Science Foundation of China (61827901, 42175007, 41905001 and 42192554) and the Meteorological Research Program of Guangxi Province of China (2023ZL04). Klotzbach would like to acknowledge financial support from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/Song_etal_GRL_2023.bib 
+  pdf: ../Publications/papers/Song_etal_GRL_2023.pdf
+  keyword1: rapid intensification
+  keyword2: west Pacific teleconnection
+  keyword3: vertical wind shear
+- id: Song_etal_IJC_2023.yml
+  year: 2023
+  title: "Asymmetric influence of the Pacific meridional mode on tropical cyclone formation over the western North Pacific"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Song, Jinjie, and Klotzbach, Philip J., and Wang, Yi-Fan, and Wei, Na, and Duan, Yihong
+  journal: International Journal of Climatology
+  others:  43 
+  doi: https://doi.org/10.1002/joc.8220
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: 
+  abstract: Abstract This study investigates the asymmetric response of western North Pacific (WNP) tropical cyclone (TC) formation during August–November to the Pacific meridional mode (PMM) from 1961 to 2021. Basinwide WNP TC frequency significantly increases (slightly decreases) during positive (negative) PMM years, implying a nonlinear PMM–TC frequency relationship. Only small spatial changes in TC formation occur during negative PMM years, while there is nearly a basinwide enhancement of TC formation during positive PMM years, particularly over the region of 5°–30°N and 135°–155°E. This region is characterized by significantly enhanced low-level vorticity, mid-level updrafts and upper-level divergence during positive PMM years, all favouring TC development. By contrast, environmental anomalies are of a smaller magnitude and mostly insignificant over the WNP during negative PMM years. These distinct environmental changes during different PMM phases can be explained by differences in PMM strength. Positive PMM events are of a greater strength and are associated with a stronger wind–evaporation–sea surface temperature feedback than negative PMM events, leading to a notable anomalous large-scale low-level cyclonic circulation over the WNP in positive PMM events.
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Song_etal_IJC_2023a.bib 
+  pdf: ../../Publications/papers/Song_etal_IJC_2023.pdf
+  keyword1: Pacific meridional mode
+  keyword2: tropical cyclone
+  keyword3: western north Pacific
+- id: Silvers_etal_2023.yml
+  year: 2023
+  title: The Response of the Large-Scale Tropical Circulation to Warming
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Silvers, Levi G., and Reed, Kevin A. and Wing, Allison A.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  15, e2021MS002966
+  doi: https://doi.org/10.1029/2021MS002966
+  keypoint1: The overturning tropical circulation weakens as the surface warms in the majority of radiative convective equilibrium models examined 
+  keypoint2: Inter-model spread of circulation intensity and change of intensity are highly correlated with ascending velocity spread at 500 hPa
+  keypoint3: Variability of both the clear-sky heating and static stability result in large variations of the subsidence velocity
+  abstract: Previous work has found that as the surface warms the large-scale tropical circulations weaken, convective anvil cloud fraction decreases, and atmospheric static stability increases. Circulation changes inevitably lead to changes in the humidity and cloud fields which influence the surface energetics. The exchange of mass between the boundary layer (BL) and the midtroposphere has also been shown to weaken in global climate models. What has remained less clear is how robust these changes in the circulation are to different representations of convection, clouds, and microphysics in numerical models. We use simulations from the Radiative-Convective Equilibrium Model Intercomparison Project to investigate the interaction between overturning circulations, surface temperature, and atmospheric moisture. We analyze the underlying mechanisms of these relationships using a 21-member model ensemble that includes both General Circulation Models and Cloud-system Resolving Models. We find a large spread in the change of intensity of the overturning circulation. Both the range of the circulation intensity, and its change with warming can be explained by the range of the mean upward vertical velocity. There is also a consistent decrease in the exchange of mass between the BL and the midtroposphere. However, the magnitude of the decrease varies substantially due to the range of responses in both mean precipitation and mean precipitable water. We hypothesize based on these results that despite well understood thermodynamic constraints, there is still a considerable ability for the cloud fields and the precipitation efficiency to drive a substantial range of tropical convective responses to warming. 
+  summary: Tropical large-scale overturning circulations are expected to weaken with warming. This weakening is the result of precipitation increasing at a slower rate than the atmospheric water vapor. Because precipitation and water vapor are important measures of how energy flows through the atmosphere it is important to understand how they will respond to a warming climate. We use two methods to calculate the change of the overturning circulation in 21 different simulations of the tropical atmosphere. This group of 21 models includes high resolution models that resolve cloud systems, and global models with grid-spacing of about 100 km. We show that a weakening circulation that results from increasing atmospheric stability and increased water vapor is a robust result across most models. But across the group of models there is a large range of magnitudes in the response of the circulation to warming. This variability is well explained by the magnitude of the mean upward vertical velocity. Higher resolution models do not have a narrower range of responses. Narrowing this range of responses will depend on developing a better understanding of what drives the variations in atmospheric stability, surface fluxes of latent energy, and relative humidity.
+  image: ../Publications/figures/Silvers_etal_2023_fig2.png 
+  caption: (a) Intensity of the large-scale circulation, I, as a function of Ts. (b) Intensity of large-scale circulation (shading, hPa d−1) decomposed into the magnitude of individual components ω↓ and ω↑. Thick black lines represent constant values of the subsidence fraction (0.3, 0.5, 0.7, and 0.9). Circles (stars) indicate General Circulation Models (GCMs) (Cloud-system Resolving Models (CRMs)) and increasing marker size indicates increased values of Ts. All GCMs have been interpolated to a 1 × 1 degree grid and the CRMs have been coarsened to blocks that are (96 km)2.
+  acknowledgement: Silvers and Reed acknowledge support from NSF award number 1830729, Wing acknowledges support from NSF award number 1830724. We are grateful to the German Climate Computing Center (DKRZ) where the RCEMIP data is hosted. RCEMIP data is publicly avail- able at http://hdl.handle.net/21.14101/ d4beee8e-6996-453e-bbd1-ff53b6874c0e. We are grateful to all of the RCEMIP contributors for providing the RCEMIP simulations. We thank Catherine Stauffer for providing net radiative cooling profiles in the regions of subsidence. We thank Michael Byrne and Anna Mackie for helpful conversations during the development of this research and Andrea Jenney for an insightful review of the submitted manuscript. The authors would also like to thank two anonymous review- ers for their feedback. High-performance computing support was provided by NCAR's Computational and Information Systems Laboratory through the computer Cheyenne (https://doi.org/10.5065/ D6RX99HX). NCAR is sponsored by the National Science Foundation.
+  bibtex: ../Publications/bibtex/Silvers_etal_2023.bib 
+  pdf: ../Publications/papers/Silvers_etal_2023.pdf
+  keyword1: radiative-convective equilibrium
+  keyword2: tropical circulations
+  keyword3: climate sensitivity
+- id: Song_etal_IJC_2023b.yml
+  year: 2023
+  title: "Modulation of western North Pacific tropical cyclone formation by central Pacific El Niño-Southern Oscillation on decadal and interannual timescales"
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors:  Song, Jinjie, and Klotzbach, Philip J., and Wei, Na, and Duan, Yihong
+  journal: International Journal of Climatology
+  others:  43
+  doi: https://doi.org/10.1002/joc.7777
+  keypoint1:
+  keypoint2:
+  keypoint3:
+  abstract:
+  abstract: Abstract This study investigates the impact of central Pacific (CP) El Niño–Southern Oscillation (ENSO) on tropical cyclone (TC) frequency over the western North Pacific (WNP) on decadal and interannual timescales. The CP ENSO-TC frequency relationship is strong and significant only on decadal timescales, with enhanced TC formation over most of the WNP associated with warm CP ENSO phases. TC formation changes, driven by CP ENSO, exhibit a southeast–northwest dipole pattern on interannual timescales, similar to the typical pattern induced by eastern Pacific ENSO. Associated with warm CP ENSO phases on decadal timescales are increases in TC formation east of 125°E, while increases in TC formation east of 140°E are observed with warm CP ENSO phases on interannual timescales. These increases in TC activity are primarily caused by favourable dynamic conditions, including increased 850-hPa relative vorticity and 200-hPa divergence and decreased 850–200-hPa vertical wind shear. The main TC formation difference on decadal and interannual timescales is concentrated over the longitudinal band of 125°–140°E, where reduced TC formation is observed on interannual timescales during CP El Niño years, predominately due to suppressed thermodynamic factors, for example, reduced maximum potential intensity and 700–500-hPa relative humidity. We find insignificant (significant) changes in thermodynamic conditions between 125°E and 140°E due to weak (strong) descending motion in the western cell of the anomalous Walker circulation on decadal (interannual) timescales. This can be explained by different patterns of CP ENSO-induced sea surface temperature anomalies on different timescales.
+  summary:
+  image:
+  caption:
+  acknowledgement:
+  bibtex: ../../Publications/bibtex/Song_etal_IJC_2023b.bib
+  pdf: ../../Publications/papers/Song_etal_IJC_2023b.pdf
+  keyword1: central Pacific ENSO
+  keyword2: tropical cyclone
+  keyword3: western North Pacific
+- id: Zang_etal_AR_2023.yml 
+  year: 2023
+  title: "Relationship between the South Asian High and Western North Pacific tropical cyclone genesis"  
+  author1: klotzbach 
+  author2: false                                                                                      
+  author3: false
+  authors: Song, Jinjie, and Klotzbach, Philip J., and Wei, Na, and Duan, Yihong                      
+  authors: Yuqi Zang, and Haikun Zhao, and Philip J. Klotzbach, and Chao Wang, and Jian Cao           
+  journal: Atmospheric Research 
+  others: 281 
+  doi: https://doi.org/10.1016/j.atmosres.2022.106491
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: This study highlights a significant inter-decadal modulation of the South Asian high (SAH) on the meridional distribution of western North Pacific (WNP) tropical cyclone genesis frequency (TCGF). There is an obvious inter-decadal change in the first leading SAH mode, with an abrupt weakening since the early 1990s. During 1979–1993, when there was a stronger SAH, TCs were suppressed over the northern WNP and enhanced over the southern WNP in response to inter-annual SAH changes. The northern WNP TCGF had a significant negative correlation with the SAH (r = −0.69), while the southern WNP TCGF had a significant positive correlation with the SAH (r = 0.78). This north-south seesaw pattern driven by the SAH weakened during 1994–2019. This inter-decadal modulation of the inter-annual SAH-WNP TC genesis relationship can be explained by changes in large-scale environmental parameters. There is anomalous ascending (descending) motion and negative (positive) vorticity centered at 850-hPa as well as less (more) moisture at 600-hPa in the northern WNP (southern WNP) during 1979–1993. The maintenance of a strong low-level anomalous anticyclone accompanied by the concurrent influence of the SAH and East Asian upper-tropospheric jet stream decreases northern WNP TCGF. Linking to an El Niño-like SST pattern, the cyclonic circulation forced by a Gill-type forcing and enhanced by equatorial low-level westerly anomalies increases southern WNP TCGF. In contrast, we find a relatively weak inter-annual relationship of large-scale factors to the SAH since 1994. This weakening relationship is largely due to the inter-decadal weakening of the SAH and East Asian upper-tropospheric jet stream. Inter-decadal changes of the East Asian summer monsoon and the phase shift of the Atlantic Multi-decadal Oscillation appear to be two important factors modulating the inter-annual relationship between the SAH and the meridional distribution of WNP TCGF.
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Zang_etal_AR_2023.bib 
+  pdf: ../Publications/papers/Zang_etal_AR_2023.pdf
+  keyword1: South Asian high
+  keyword2: tropical cyclone    
+  keyword3: western North Pacific         
+- id: Silvers_etal_2016.yml
+  title: "Radiative convective equilibrium as a framework for studying the interaction between convection and its large-scale environment"
+  authors: Silvers, Levi G, and Stevens, Bjorn, and Mauritsen, Thorsten, and Giorgetta, Marco
+  author1: silvers
+  journal: Journal of Advances in Modeling Earth Systems
+  others: 8
+  year: 2016
+  abstract: An uncertain representation of convective clouds has emerged as one of the key barriers to our understanding of climate sensitivity. The large gap in resolved spatial scales between General Circulation Models (GCMs) and high resolution models has made a systematic study of convective clouds across model configurations difficult. It is shown here that the simulated atmosphere of a GCM in Radiative Convective Equilibrium (RCE) is sufficiently similar across a range of domain sizes to justify the use of RCE to study both a GCM and a high resolution model on the same domain with the goal of improved constraints on the parameterized clouds. Simulations of RCE with parameterized convection have been analyzed on domains with areas spanning more than two orders of magnitude (0:8022043106km2), all having the same grid spacing of 13 km. The simulated climates on different domains are qualitatively similar in their degree of convective organization, the precipitation rates, and the vertical structure of the clouds and water vapor, with the similarity increasing as the domain size increases. Sea surface temperature perturbation experiments are used to estimate the climate feedback parameter for the differently configured experiments, and the cloud radiative effect is computed to examine the role which clouds play in the response. Despite the similar climate states between the domains the feedback parameter varies by more than a factor of two; the hydrological sensitivity parameter is better behaved, varying by a factor of 1.4. The sensitivity of the climate feedback parameter to domain size is related foremost to a nonsystematic response of low-level clouds as well as an increasingly negative longwave feedback on larger domains.
+  image: ../Publications/figures/Silvers_etal_Fig10_2016.jpg 
+  caption: Feedback parameter (Wm22K21) as a function of domain size. Bars cor- respond to a 97.5% confidence interval with a one-sided t-test. A de-correlation time of three weeks was assumed for all domains. The feedback parameters from CMIP5 models are shown by the black markers. 
+  acknowledgement: The authors thank Timothy W. Cronin and an anonymous reviewer for instructive feedback that clarified the manuscript. Anurag Dipankar and Leonidas Linardakis assisted with debugging and stimulating discussions. Cathy Hohenegger read an early version of the manuscript and helped to improve the presentation of our ideas. The computing resources were provided by Deutsches Klimarechenzentrum (DKRZ). The research presented here was conducted when LGS was employed by the Max Planck Institute for Meteorology. The ICON development team at both MPI-M and DWD provided helpful support and motivation throughout the work. Primary data and scripts used in the analysis have been archived by the Max Planck Institute for Meteorology and can be obtained by contacting publications@mpimet.mpg.de. Princeton University generously supported LGS during the final stage of the writing. LGS thanks Catherine Raphael for assistance with Figures 1– 5, and 6. 
+  keypoint1: Radiative Convective Equilibrium (RCE) is a useful framework to compare, contrast, and harmonize the two extremes of explicit and parameterized convection
+  keypoint2: Consistent climates across a range of domain sizes encourage the use of RCE to enhance our ability to model clouds (or cloud systems)
+  keypoint3: The response of low clouds to warming, and hence estimation of the climate feedback parameter, is not robust across configurations
+  doi: https://doi.org/10.1002/2016MS000629
+  url: https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016MS000629
+  bibtex: ../Publications/bibtex/Silvers_etal_2016.bib 
+  pdf: ../Publications/papers/Silvers_etal_2016.pdf
+  keyword1: radiative-convective equilibrium
+  keyword2: tropical convection
+  keyword3: cloud radiative effect
+  publisher: Wiley Online Library
+- id: Silvers_Robinson_2021.yml
+  title: "Clouds and radiation in a mock-Walker circulation"
+  authors: Silvers, Levi G and Robinson, Thomas
+  author1: silvers
+  author2: false
+  author3: false
+  journal: Journal of Advances in Modeling Earth Systems
+  others: 13,
+  doi: https://doi.org/10.1029/2020MS002196
+  url: 
+  year: 2021
+  abstract: The Walker circulation connects the regions with deep atmospheric convection in the western tropical Pacific to the shallow-convection, tropospheric subsidence, and stratocumulus cloud decks of the eastern Pacific. The purpose of this study is to better understand the multi-scale interactions between the Walker circulation, cloud systems, and interactive radiation. To do this we simulate a mock- Walker Circulation with a full-physics general circulation model using idealized boundary conditions. Our experiments use a doubly-periodic domain with grid-spacing of 1, 2, 25, and 100 km. We thus span the range from General Circulation Models (GCMs) to Cloud-system Resolving Models (CRMs). Our model is derived from the Geophysical Fluid Dynamics Laboratory atmospheric GCM (AM4.0). We find substantial differences in the mock-Walker circulation simulated by our GCM-like and CRM-like experiments.  The CRM-like experiments have more upper level clouds, stronger overturning circulations, and less precipitation. The GCM-like experiments have a low-level cloud fraction that is up to 20% larger. These differences leads to opposite atmospheric responses to changes in the longwave cloud radiative effect (LWCRE). Active LWCRE leads to increased precipitation for our GCMs, but decreased precipitation for our CRMs. The LWCRE leads to a narrower rising branch of the circulation and substantially increases the fraction of precipitation from the large-scale cloud parameterization. This work demonstrates that a mock- Walker circulation is a useful generalization of radiative convective equilibrium that includes a large-scale circulation.
+  image: ../Publications/figures/Silvers_Robinson_Fig5_2021.jpg 
+  caption: "Evolution of precipitation through five years of simulation for four experiments with a grid spacing of 25 km. (a) Control 25 km experiment (P25); (b) P25 with LWCRE turned off; (c) Both deep and shallow convective parameterization schemes are turned off (E25); (d) E25 experiment shown in (c) except with the LWCRE turned off. All cases have an SST of 301 K at the center and 297 K at the edges. Contour values are: 1, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, and 90. Data have been averaged over the short horizontal dimension of the domain."
+  acknowledgement: "The authors thank Leo Donner, Nadir Jeevanjee, Yi Ming, and Juho Iipponen for discussions that helped to motivate this work as well as useful comments on drafts of the manuscript. Comments from three anonymous reviewers also helped to improve the manuscript. The expertise of Ming Zhao with the physics of AM4.0 also proved helpful in many conversations related to this work. L.G. Silvers performed the experiments and wrote the paper under award NA18OAR4320123 from the National Oceanic and Atmospheric Administra- tion, U.S. Department of Commerce. Thomas Robinson helped to develop and test the doubly periodic domain for AM4.0. L. G. Silvers also acknowledges recent partial support through Stony Brook University from award NSF AGS1830729."
+  keypoint1: These cloud resolving simulations result in more upper-level clouds, relative to low resolution simulations that have more low-level clouds
+  keypoint2: High and low clouds interact differently with longwave radiation to increase or decrease precipitation, depending on the dominant cloud type
+  keypoint3: Interactions between clouds and radiation combined with parameterized convection shift the precipitation maximum away from the sea surface temperature maximum 
+  bibtex: ../Publications/bibtex/Silvers_Robinson_2021.bib 
+  pdf: ../Publications/papers/Silvers_Robinson_2021.pdf
+  keyword1: Walker circulation
+  keyword2: tropical convection
+  keyword3: cloud radiative effect
+  publisher: Wiley Online Library
+- id: Silvers_etal_2024.yml
+  year: 2018
+  title: "The Diversity of Cloud Responses to Twentieth Century Sea Surface Temperatures"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Silvers, Levi G., and Paynter, David and Zhao, Ming
+  journal: Geophysical Research Letters
+  others:  45, 391-400
+  doi: https://doi.org/10.1002/2017GL075583
+  keypoint1: Three climate models driven by observed sea surface temperatures increase then decrease climate sensitivity over the twentieth century 
+  keypoint2: Substantial changes of the climate feedback parameter are mirrored by the global mean low-level cloud anomalies 
+  keypoint3: This variability is connected to atmospheric stability and not dominated by stratocumulus regions, but by the broader tropics
+  abstract: "Low-level clouds are shown to be the conduit between the observed sea surface temperatures (SST) and large decadal fluctuations of the top of the atmosphere radiative imbalance. The influence of low-level clouds on the climate feedback is shown for global mean time series as well as particular geographic regions. The changes of clouds are found to be important for a midcentury period of high sensitivity and a late century period of low sensitivity. These conclusions are drawn from analysis of amip-piForcing simulations using three atmospheric general circulation models (AM2.1, AM3, and AM4.0). All three models confirm the importance of the relationship between the global climate sensitivity and the eastern Pacific trends of SST and low-level clouds. However, this work argues that the variability of the climate feedback parameter is not driven by stratocumulus-dominated regions in the eastern ocean basins, but rather by the cloudy response in the rest of the tropics."
+  summary: 
+  image: ../../Publications/figures/Silvers_etal_2018_fig1.jpg
+  caption: "Time series analysis of AM4.0 (black), AM3 (green), and AM2.1 (blue). Thick lines are ensemble means; shading gives range of ensemble members. (a) Global climate feedback parameter −α (W/m2 K). (b) Same as Figure 1a but with contributions from four tropical windows (short dash) and the rest of tropics (long dash). (c) α (W/m2 K) decomposed into the CRE (lower) and CLR (upper) components. (d) Global mean low-cloud cover parameter LCCLR (%/K). Global αCRE (W/m2 K) is decomposed into the (e) short-wave CRE and the (f) long-wave CRE. All time series computed by regression against global, yearly mean surface air temperature change."
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Silvers_etal_2018.bib 
+  pdf: ../Publications/papers/Silvers_etal_2018.pdf
+  keyword1: The pattern effect 
+  keyword2: low-level cloud feedback
+  keyword3: climate sensitivity
+- id: Fueglistaler_Silvers_2021.yml
+  year: 2021
+  title: "The Peculiar Trajectory of Global Warming"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Fueglistaler, Stephan and Silvers, Levi G. 
+  journal: "Journal of Geophysical Research: Atmospheres"
+  others:  126, e2020JD033629
+  doi: https://doi.org/10.1029/2020JD033629
+  keypoint1: "Difference between sea surface temperatures (SSTs) in regions of tropical deep convection and average (Δconv) explains time-varying cloud radiative feedback (“pattern effect”)" 
+  keypoint2: "SST reconstructions show an unprecedented trend in Δconv in the 1980s–1990s not seen in coupled atmosphere-ocean general circulation models (GCMs)"
+  keypoint3: "Independent confirmation of the resulting negative cloud feedback in the 1980s–1990s in GCM simulations with observed SSTs is lacking" 
+  abstract: "General Circulation Model (GCM) simulations with prescribed observed sea surface temperature (SST) over the historical period show systematic global shortwave cloud radiative effect (SWCRE) variations uncorrelated with global surface temperature (known as “pattern effect”). Here, we show that a single parameter that quantifies the difference in SSTs between regions of tropical deep convection and the tropical or global average (Δconv) captures the time-varying “pattern effect” in the simulations using the PCMDI/AMIPII SST recommended for CMIP6. In particular, a large positive trend in the 1980s–1990s in Δconv explains the change of sign to a strongly negative SWCRE feedback since the late 1970s. In these decades, the regions of deep convection warm about +50% more than the tropical average. Such an amplification is rarely observed in forced coupled atmosphere-ocean GCM simulations, where the amplified warming is typically about +10%. During the post 2000 global warming hiatus Δconv shows little change, and the more recent period of resumed global warming is too short to robustly detect trends. In the prescribed SST simulations, Δconv is forced by the SST difference between warmer and colder regions. An index thereof (SST#) evaluated for six SST reconstructions shows similar trends for the satellite era, but the difference between the pre- and the satellite era is substantially larger in the PCMDI/ AMIPII SSTs than in the other reconstructions. Quantification of the cloud feedback depends critically on small changes in the shape of the SST probability density distribution. These sensitivities underscore how essential highly accurate, persistent, and stable global climate records are to determine the cloud feedback." 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Fueglistaler_Silvers_2021.bib 
+  pdf: ../Publications/papers/Fueglistaler_Silvers_2021.pdf
+  keyword1: The pattern effect 
+  keyword2: SST reconstruction
+  keyword3: cloud feedback
+- id: Zhang_etal_2021_JAS.yml
+  year: 2021
+  title: "Idealized Aqua-Planet Simulations of Tropical Cyclone Activity: Significance of Temperature Gradients, Hadley Circulation, and Zonal Asymmetry."
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Zhang, Gan, and Silverss, Levi G. and Zhao, Ming and Knutson, Tom. R.
+  journal: Journal of Atmospheric Science
+  others:  78, 877-902
+  doi: https://doi.org/10.1175/JAS-D-20-0079.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Earlier studies have proposed many semiempirical relations between climate and tropical cyclone (TC) activity. To explore these relations, this study conducts idealized aquaplanet experiments using both symmetric and asymmetric sea surface temperature (SST) forcings. With zonally symmetric SST forcings that have a maximum at 10°N, reducing meridional SST gradients around an Earth-like reference state leads to a weakening and southward displacement of the intertropical convergence zone. With nearly flat meridional gradients, warm-hemisphere TC numbers increase by nearly 100 times due particularly to elevated high-latitude TC activity. Reduced meridional SST gradients contribute to a poleward expansion of the tropics, which is associated with a poleward migration of the latitudes where TCs form or reach their lifetime maximum intensity. However, these changes cannot be simply attributed to the poleward expansion of Hadley circulation. Introducing zonally asymmetric SST forcings tends to decrease the global TC number. Regional SST warming—prescribed with or without SST cooling at other longitudes—affects local TC activity but does not necessarily increase TC genesis. While regional warming generally suppresses TC activity in remote regions with relatively cold SSTs, one experiment shows a surprisingly large increase of TC genesis. This increase of TC genesis over relatively cold SSTs is related to local tropospheric cooling that reduces static stability near 15°N and vertical wind shear around 25°N. Modeling results are discussed with scaling analyses and have implications for the application of the “convective quasi-equilibrium and weak temperature gradient” framework."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Zhang_etal_2021_JAS.bib 
+  pdf: ../Publications/papers/Zhang_etal_2021_JAS.pdf
+  keyword1: Cyclogenesis
+  keyword2: Hadley circulation
+  keyword3: Tropical cyclone
+- id: Song_etal_2023_ERCa.yml
+  year: 2023
+  title: ""
+  title: "Quasi-biennial modulation of rapidly intensifying tropical cyclones by the western North Pacific monsoon"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors:  Song, Jinjie, and Klotzbach, Philip J., and Qingyuan, Liu, and Duan, Yihong
+  journal: Environmental Research Communications
+  others:  5 
+  doi: https://dx.doi.org/10.1088/2515-7620/acd43b
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Previous publications have highlighted the relationship between several climate modes such as El Niño–Southern Oscillation and tropical cyclones (TCs) experiencing rapid intensification (RI) over the western North Pacific (WNP), particularly on a 3–7-yr timescale. This study investigates the modulation of TCs experiencing RI by the WNP monsoon on biennial timescales. There is a significant positive relationship between rapidly intensifying TC (RITC) frequency over the WNP during July–November from 1980 to 2021 and the simultaneous WNP monsoon index. After classifying different WNP monsoon years on biennial timescales, we find significantly more TCs forming over the key region from 5°–25°N, 140°–160°E during strong WNP monsoon years. Some of these TCs then move westward into the portion of the WNP that climatologically has the most RI-favorable environmental conditions. Alternatively, other TCs forming in the key region move northward and undergo RI quickly after genesis, subsequently leading to an increase in rapidly intensifying WNP TC frequency. The WNP monsoon influences rapidly intensifying TC activity predominantly through modulation of large-scale atmospheric conditions. During strong WNP monsoon years, increased low-to-mid-level humidity, low-level vorticity and upper-level divergence and decreased vertical wind shear all favor TC genesis and RI development over the key region. A strong WNP monsoon is also associated with an anomalous 850-hPa cyclone, an anomalous 200-hPa anticyclone, increased 600-hPa moisture convergence and a decrease in the magnitude of 200-hPa winds over the key region. Our study highlights that the WNP monsoon significantly modulates TC and RITC activity at distinct timescales."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Song_etal_2023_ERCa.bib 
+  pdf: ../Publications/papers/Song_etal_2023_ERCa.pdf
+  keyword1: Rapid Intensification  
+  keyword2: tropical cyclone
+  keyword3: western north Pacific
+- id: Song_etal_2023_ERCb.yml
+  year: 2023
+  title: "Decadal changes in rapid intensification of western North Pacific tropical cyclones modulated by the North Pacific Gyre Oscillation"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Song, Jinjie, and Klotzbach, Philip J., and Qingyuan, Liu, and Duan, Yihong
+  journal: Environmental Research Communications
+  others:  5 
+  doi: https://dx.doi.org/10.1088/2515-7620/ace762
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This study investigates the modulation of western North Pacific (WNP) tropical cyclone rapid intensification (RI) by the North Pacific Gyre Oscillation (NPGO) on decadal timescales. There is a significant inverse relationship between basinwide RI numbers during July–November and the simultaneous NPGO index from 1970 to 2021. During the positive NPGO phase, suppressed RI occurs over almost the entire WNP, with a distinctly different spatial distribution compared to the Pacific Decadal Oscillation-driven pattern of RI modulation. RI occurrence is significantly reduced over the eastern Philippine Sea (10°–25°N, 140°–155°E). This is primarily caused by enhanced negative low-level vorticity, which can be linked to the horizontal extent of the anomalous low-level anticyclone. By comparison, over the western Philippine Sea (10°–25°N, 125°–140°E), there are only weak RI occurrence changes due to offsetting influences of increased mid-level humidity and decreased low-level vorticity."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Song_etal_2023_ERCb.bib 
+  pdf: ../Publications/papers/Song_etal_2023_ERCb.pdf
+  keyword1: Rapid Intensification  
+  keyword2: tropical cyclone
+  keyword3: North Pacific Gyre Oscillation
+- id: SchreckIII_etal_2023.yml
+  year: 2023
+  title: "Advances in tropical cyclone prediction on subseasonal time scales during 2019-2022"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Schreck III, Carl J. and Vitart, Frédéric and Camargo, Suzana J. and Camp, Joanne and Darlow, James and Elsberry, Russell and Gottschalck, Jon and Gregory, Paul and Hansen, Kurt and Jackson, Justyn and Janiga, Matthew A. and Klotzbach, Philip J. and Chia-Ying, Lee and Long, Lindsey and Masuo, Nakano and Kazuto, Takemura and Yuhei, Takaya and Ventrice, Michael J. and Zhuo, Wang
+  journal: Tropical Cyclone Research and Review
+  others:  12 
+  doi: https://doi.org/10.1016/j.tcrr.2023.06.004
+  URL: false
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This review describes advances in understanding and forecasting tropical cyclone (TC) subseasonal variability during the past four years. A large effort by the scientific community has been in understanding the sources of predictability at subseasonal timescales beyond the well-known modulation of TC activity by the Madden-Julian Oscillation (MJO). In particular, the strong modulation of TC activity over the western North Pacific by the Boreal Summer Intra-Seasonal Oscillation (BSISO) has been documented. Progress has also been realized in understanding the role of tropical-extratropical interactions in improving subseasonal forecasts. In addition, several recent publications have shown that extratropical wave breaking may have a role in the genesis and development of TCs. Analyses of multi-model ensemble data sets such as the Subseasonal to Seasonal (S2S) and Subseasonal Experiment (SubX) have shown that the skill of S2S models in predicting the genesis of TCs varies strongly among models and regions but is often tied to their ability to simulate the MJO and its impacts. The skill in select models has led to an increase over the past four years in the number of forecasting centers issuing subseasonal TC forecasts using various techniques (statistical, statistical-dynamical and dynamical). More extensive verification studies have been published over the last four years, but often only for the North Atlantic and eastern North Pacific."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/SchreckIII_etal_2023.bib 
+  pdf: ../Publications/papers/SchreckIII_etal_2023.pdf
+  keyword1: Hurricanes 
+  keyword2: tropical cyclone
+  keyword3: Madden-Julian Oscillation
+- id: Zhao_etal_2023.yml
+  year: 2023
+  title: "On the relationship between eastern China aerosols and western North Pacific tropical cyclone activity"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Haikun Zhao, and Yunjie Jiang, and Kai Zhao, and Jian Cao, and Philip J. Klotzbach, and Graciela B. Raga, and Liguang Wu
+  journal: Atmospheric Research
+  others:   
+  doi: https://doi.org/10.1016/j.atmosres.2023.106604
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "How aerosols affect the weather and climate system has received increasing attention. This study finds a significant negative correlation between March–May eastern China aerosol optical depth (AOD) and July–November western North Pacific (WNP) tropical cyclone (TC) frequency during 2003–2020. This time period spans when several aerosol reanalyses are available and both Terra and Aqua Moderate Resolution Imaging Spectroradiometer AOD retrievals are assimilated therein. Composite analyses and budget analyses of dynamical genesis potential indices indicate the importance of large-scale environmental factors, especially vertical velocity and vertical wind shear, associated with changes in AOD that in turn modulate changes in WNP TC frequency. Increased eastern China AOD may facilitate negative Pacific meridional mode development via modulation of the westerly jet, which then forces an anticyclonic circulation over the WNP basin. Increased AOD can also directly decrease the inter-hemispheric temperature differential and increases the intra-hemispheric temperature differential between the equator and the mid-latitudes, thus weakening ascending motion and enhancing vertical wind shear over the WNP, especially the southeastern portion of the basin. All of these large-scale environment changes induced by increased eastern China AOD tend to suppress WNP TCs. This study highlights the potential influence of eastern China aerosol loadings on WNP TCs, thus improving our understanding of TC climate variability over the WNP."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Zhao_etal_2023.bib 
+  pdf: ../Publications/papers/Zhao_etal_2023.pdf
+  keyword1: Eastern China aerosols
+  keyword2: tropical cyclone
+  keyword3: Pacific Meridional Mode
+- id: Dolan_etal_GRL_2023.yml
+  year: 2023
+  title: "Time Resolved Reflectivity Measurements of Convective Clouds"
+  author1: dolan 
+  author2: false
+  author3: false
+  authors: Dolan, Brenda and Kollias, Pavlos and van den Heever, Susan C. and Rasmussen, Kristen L. and Oue, Mariko and Luke, Edward and Lamer, Katia and Treserras, Bernat P. and Haddad, Ziad and Stephens, Graeme and Chandrasekar, V.
+  journal: Geophysical Research Letters 
+  others: 50, e2023GL105723 
+  doi: https://doi.org/10.1029/2023GL105723
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Abstract National Aeronautics and Space Administration's Investigations of Convective Updrafts (INCUS) mission aims to document convective mass flux through changes in the radar reflectivity (ΔZ) in convective cores captured by a constellation of three Ka-band radars sampling the same convective cells over intervals of 30, 90, and 120 s. Here, high spatiotemporal resolution observations of convective cores from surface-based radars that use agile sampling techniques are used to evaluate aspects of the INCUS measurement approach using real observations. Analysis of several convective cells confirms that large coherent ΔZ structure with measurable signal (>5 dB) can occur in less than 30 s and are correlated with underlying convective motions. The analysis indicates that the INCUS mission radar footprint and along track sampling are adequate to capture most of the desirable ΔZ signals. This unique demonstration of reflectivity time-lapse provides the framework for estimating convective mass flux independent from Doppler techniques with future radar observations."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Dolan_etal_GRL_2023.bib 
+  pdf: ../Publications/papers/Dolan_etal_GRL_2023.pdf
+  keyword1: radar reflectivity
+  keyword2: convective clouds 
+  keyword3: 
+- id: Dolan_etal_JGR_2023.yml
+  year: 2023
+  title: "A Statistical Framework for Evaluating Rain Microphysics in Model Simulations and Disdrometer Observations"
+  author1: dolan 
+  author2: false
+  author3: false
+  authors: Dolan, Brenda and Saleeby, Stephen M. and Rutledge, Steven A. and van den Heever, Susan C. and Van Valkenburg, Kristen
+  journal: "Journal of Geophysical Research: Atmospheres"
+  others: 128, e2023JD038902  
+  doi: https://doi.org/10.1029/2023JD038902
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: 
+  abstract: "Abstract Statistical analyses of a large disdrometer data set and a diverse set of model simulations for convection using the Regional Atmospheric Modeling System were conducted, with the mutual goal of providing insights into precipitation formation and microphysical processes. We demonstrate that a two-moment bulk microphysical model successfully captures the dominant observed modes of variability in rainfall related to rainfall intensity and raindrop size distributions. The model reproduced the general distribution of observed precipitation groups (PGs) derived from Principal Component Analysis. The multi-variable analysis also uncovered some shortcomings in the model as well as limitations of the disdrometer data. The model solutions were constrained in their predicted drop size distributions (DSDs) due to the fixed DSD parameters assumed in a two-moment microphysics scheme. A case study from the Mid-latitude Continental Clouds and Convection Experiment field project demonstrated how model results can be used to contextualize the disdrometer observations which are limited in sample size, spatial coherence, and detection of small drops and low drop concentrations. The case study also showed that the spatial patterns of the statistically derived PGs revealed by the model are consistent with the hypothesized microphysical processes that determine surface rain DSDs. This work demonstrates how leveraging the strengths of observations and models together can improve our understanding and representation of rain microphysical processes."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Dolan_etal_JGR_2023.bib 
+  pdf: ../Publications/papers/Dolan_etal_JGR_2023.pdf
+  keyword1: disdrometer dataset 
+  keyword2: drop size distribution
+  keyword3: rain microphysical processes
+- id: Dolan_etal_2022.yml
+  year: 2022
+  title: "Multiscale Interactions Contributing to Enhanced Orographic Precipitation in Landfalling Frontal Systems over the Olympic Peninsula"
+  author1: dolan 
+  author2: false
+  author3: false
+  authors: Dolan, Brenda and Rutledge, Steven A. and Rasmussen, Kristen L 
+  journal: "Monthly Weather Review"
+  others: 150, 6  
+  doi: https://doi.org/10.1175/MWR-D-21-0160.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Orographic precipitation results from complex interactions between terrain, large-scale flow, turbu- lent motions, and microphysical processes. This study appeals to polarimetric radar data in conjunction with surface-based disdrometer observations, airborne particle probes, and reanalysis data to study these processes and their interactions as observed during the Olympic Mountain Experiment (OLYMPEX). Radar and disdrometer observations from OLYMPEX, which was conducted over the Olympic Peninsula in the winter of 2015, revealed 3 times as much rain fell over elevated sites compared to those along the ocean and coast. Several events were marked by significant water vapor transport and strong onshore flow. Detailed analysis of four cases demonstrated that the warm sector, which previous authors noted to be a period of strong orographic enhancement over the terrain, is associated not only with deeper warm cloud regions, but also deeper cold cloud regions, with the latter supporting the growth of dendritic ice crystals between 4 and 6 km. This dendritic growth promotes enhanced aggre- gation just above the melting layer, which then seeds the warm cloud layer below, allowing additional drop growth via coalescence. Periods of subsynoptic variability associated with mesoscale boundaries and low-level jets are shown to locally modify both the ice microphysics as well as surface drop-size distributions. This study explores the spatial and temporal variability of precipitation, cloud microphysics, and their relationship over the complex terrain of the Olympic Peninsula.
+"
+  summary: "This study appeals to polarimetric radar, aircraft particle probes, disdrometer data, and reanalysis to investigate the complex interactions between large frontal systems, terrain, and microphys- ical processes contributing to precipitation characteristics at the surface over the Olympic Peninsula. The study finds that the precipitation is a complex function of the synoptic regime, distance inland, and terrain height. Ice microphysical processes aloft act to modulate the surface rain drop size distributions, and are more important in contributing to higher rain accumulations inland during the later phases of the warm sector, particularly over the middle terrain heights (100–500 m)." 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Dolan_etal_2022.bib 
+  pdf: ../Publications/papers/Dolan_etal_2022.pdf
+  keyword1: complex terrain 
+  keyword2: precipitation 
+  keyword3: radar observations 
+- id: Dolan_etal_2018.yml
+  year: 2018
+  title: "Primary modes of global drop size distributions"
+  author1: dolan 
+  author2: false
+  author3: false
+  authors: Dolan, Brenda and Fuchs, B. and Rutledge, Steven A. and Barnes, E.A. and Thompson, E.J.
+  journal: "Journal of the Atmospheric Sciences"
+  others: 75  
+  doi: https://doi.org/10.1175/JAS-D-17-0242.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Understanding drop size distribution (DSD) variability has important implications for remote sensing and numerical modeling applications. Twelve disdrometer datasets across three latitude bands are analyzed in this study, spanning a broad range of precipitation regimes: light rain, orographic, deep convective, organized midlatitude, and tropical oceanic. Principal component analysis (PCA) is used to reveal comprehensive modes of global DSD spatial and temporal variability. Although the locations contain different distributions of individual DSD parameters, all locations are found to have the same modes of variability. Based on PCA, six groups of points with unique DSD characteristics emerge. The physical processes that underpin these groups are revealed through supporting radar observations. Group 1 (group 2) is characterized by high (low) liquid water content (LWC), broad (narrow) distribution widths, and large (small) median drop diameters D0. Radar analysis identifies group 1 (group 2) as convective (stratiform) rainfall. Group 3 is characterized by weak, shallow radar echoes and large concentrations of small drops, indicative of warm rain showers. Group 4 identifies heavy stratiform precipitation. The low latitudes exhibit distinct bimodal distributions of the nor- malized intercept parameter Nw, LWC, and D0 and are found to have a clustering of points (group 5) with high rain rates, large Nw, and moderate D0, a signature of robust warm rain processes. A distinct group associated with ice-based convection (group 6) emerges in the midlatitudes. Although all locations exhibit the same covariance of parameters associated with these groups, it is likely that the physical processes responsible for shaping the DSDs vary as a function of location."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Dolan_etal_2018.bib 
+  pdf: ../Publications/papers/Dolan_etal_2018.pdf
+  keyword1: drop size distribution 
+  keyword2: precipitation 
+  keyword3: microphysics
+- id: Cai_etal_JCLI_2023.yml
+  year: 2023
+  title: "Can Tibetan Plateau Snow Depth Influence the Interannual Association between Tropical Indian Ocean Sea Surface Temperatures and Rapidly Intensifying Typhoons?"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors:  Cai, Yuhao, and Zhao, Haikun and Klotzbach, Philip J., and Raga, Graciela B. and Xu, Jing, and Wu, Liquang, and Han, Xiang, and He, Bian and Cao, Jian 
+  journal: Journal of Climate
+  others:  36 
+  doi: https://doi.org/10.1175/JCLI-D-22-0697.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This study finds that the observed decrease in winter–spring Tibetan Plateau snow depth since 2000 has played an important role in weakening the correlation between rapidly intensifying tropical cyclones over the western North Pacific and tropical Indian Ocean sea surface temperatures (SSTs). Tibetan Plateau snow depth modulates convec- tive activity through changes in the South Asian high. Increased Tibetan Plateau snow depth promotes basinwide tropical Indian Ocean cooling in spring through a Gill-type response. In the following seasons, downward latent heat flux anomalies associated with a weaker monsoon circulation contributes to warm SST anomalies over the western tropical Indian Ocean, thus favoring a positive phase of the Indian Ocean dipole. This evolution of tropical Indian Ocean SSTs associated with anomalously high Tibetan Plateau snow depth potentially weakens the relationship between rapidly intensifying tropical cyclone frequency and spring tropical Indian Ocean SSTs. When the effect of Tibetan Plateau snow depth is removed via partial correlation analysis, we find a significant relationship between spring tropical Indian Ocean SSTs and rapidly inten- sifying tropical cyclones as well as corresponding large-scale environmental factors. The results of this study enhance un- derstanding of changes in tropical cyclone intensity and have implications for seasonal forecasting of tropical cyclone intensity over the western North Pacific basin. This study also emphasizes the importance of Tibetan Plateau thermal forc- ing in atmosphere–ocean coupling." 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Cai_etal_JCLI_2023.bib 
+  pdf: ../Publications/papers/Cai_etal_JCLI_2023.pdf
+  keyword1: Sea surface temperature
+  keyword2: tropical cyclones
+  keyword3: climate variability
+- id: Zhang_etal_JCLI_2023.yml
+  year: 2023
+  title: "Interannual Variability in the Boreal Summer Intraseasonal Oscillation Modulates the Meridional Migration of Western North Pacific Tropical Cyclone Genesis"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Shufen Zhang and Haikun Zhao and Philip J. Klotzbach and Xianan Jiang and Guosen Chen and Shaohua Chen
+  journal: Journal of Climate
+  others:  36 
+  doi: https://doi.org/10.1175/JCLI-D-22-0406.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Prior studies have emphasized the influence of the boreal summer intraseasonal oscillation (BSISO) on basin-scale and global-scale tropical cyclones (TCs). An improved understanding of the BSISO’s impact on TCs at various climate time scales will likely lead to improved subseasonal-to-seasonal prediction. This study explores the impact of BSISO interannual variability on western North Pacific (WNP) TCs. We find that interannual meridional variability in the BSISO modulates the meridional migration of WNP TC genesis and is related to changes in BSISO phase structure. These structural changes are characterized by occurrence frequency changes for individual BSISO phases between the equatorial region over the eastern Indian Ocean (EIO)–Maritime Continent (MC) and the subtropical region over the South China Sea (SCS)–western Pacific. This interannual north–south change of the BSISO appears to be associated with changes in sea surface temperature over the MC region and WNP mid-to-low-tropospheric moisture advection, mainly via remote forcing of a Gill-type Rossby response to BSISO convection and a large meridional asymmetry of the low-level background moisture distribution. During years with increased BSISO residence time over the subtropical SCS–western Pacific, more TCs occur over the northern WNP due to TC-favorable BSISO-associated convection and circulation. In contrast, more TCs occur over the southern WNP in years with increased BSISO convection residence time over the equatorial EIO–MC. We find that the increase in frequency of BSISO phase occurrence over the subtropical SCS–western Pacific since the late 1990s has potentially contributed to a recent poleward shift of WNP TC genesis."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Zhang_etal_JCLI_2023.bib 
+  pdf: ../Publications/papers/Zhang_etal_JCLI_2023.pdf
+  keyword1: Madden-Julian oscillation
+  keyword2: Tropical Cyclones
+  keyword3: Interannual variability
+- id: Takaya_etal_TCRR_2023.yml
+  year: 2023
+  title: "Recent advances in seasonal and multi-annual tropical cyclone forecasting"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Yuhei Takaya and Louis-Philippe Caron and Eric Blake and François Bonnardot and Nicolas Bruneau and Joanne Camp and Johnny Chan and Paul Gregory and Jhordanne J. Jones and Namyoung Kang and Philip J. Klotzbach and Yuriy Kuleshov and Marie-Dominique Leroux and Julia F. Lockwood and Hiroyuki Murakami and Akio Nishimura and Dushmanta R. Pattanaik and Tom J. Philp and Yohan Ruprich-Robert and Ralf Toumi and Frédéric Vitart and Seonghee Won and Ruifen Zhan
+  journal: Tropical Cyclone Research and Review
+  abstract: "Seasonal tropical cyclone (TC) forecasting has evolved substantially since its commencement in the early 1980s. However, present operational seasonal TC forecasting services still do not meet the requirements of society and stakeholders: current operational products are mainly basin-scale information, while more detailed sub-basin scale information such as potential risks of TC landfall is anticipated for decision making. To fill this gap and make the TC science and services move forward, this paper reviews recent research and development in seasonal tropical cyclone (TC) forecasting. In particular, this paper features new research topics on seasonal TC predictability in neutral conditions of El Niño–Southern Oscillation (ENSO), emerging forecasting techniques of seasonal TC activity including Machine Learning/Artificial Intelligence, and multi-annual TC predictions. We also review the skill of forecast systems at predicting landfalling statistics for certain regions of the North Atlantic, Western North Pacific and South Indian oceans and discuss the gap that remains between current products and potential user's expectations. New knowledge and advanced forecasting techniques are expected to further enhance the capability of seasonal TC forecasting and lead to more actionable and fit-for-purpose products."
+  others:  12 
+  doi: https://doi.org/10.1016/j.tcrr.2023.09.003 
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Prior studies have emphasized the influence of the boreal summer intraseasonal oscillation (BSISO) on basin-scale and global-scale tropical cyclones (TCs). An improved understanding of the BSISO’s impact on TCs at various climate time scales will likely lead to improved subseasonal-to-seasonal prediction. This study explores the impact of BSISO interannual variability on western North Pacific (WNP) TCs. We find that interannual meridional variability in the BSISO modulates the meridional migration of WNP TC genesis and is related to changes in BSISO phase structure. These structural changes are characterized by occurrence frequency changes for individual BSISO phases between the equatorial region over the eastern Indian Ocean (EIO)–Maritime Continent (MC) and the subtropical region over the South China Sea (SCS)–western Pacific. This interannual north–south change of the BSISO appears to be associated with changes in sea surface temperature over the MC region and WNP mid-to-low-tropospheric moisture advection, mainly via remote forcing of a Gill-type Rossby response to BSISO convection and a large meridional asymmetry of the low-level background moisture distribution. During years with increased BSISO residence time over the subtropical SCS–western Pacific, more TCs occur over the northern WNP due to TC-favorable BSISO-associated convection and circulation. In contrast, more TCs occur over the southern WNP in years with increased BSISO convection residence time over the equatorial EIO–MC. We find that the increase in frequency of BSISO phase occurrence over the subtropical SCS–western Pacific since the late 1990s has potentially contributed to a recent poleward shift of WNP TC genesis."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Takaya_etal_TCRR_2023.bib 
+  pdf: ../Publications/papers/Takaya_etal_TCRR_2023.pdf
+  keyword1: boreal summer intraseasonal oscillation
+  keyword2: Tropical Cyclones
+  keyword3: Interannual variability
+- id: Majumdar_etal_GRL_2023.yml
+  year: 2023
+  title: "North Atlantic Tropical Cyclone Intensification: Regional Drivers and Trends"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Majumdar, Sharanya J. and Nebylitsa, Samantha and Klotzbach, Philip J. and Masiello, Cameron and Michael, Zachary R. 
+  journal: Geophysical Research Letters
+  others:  50, e2023GL104803 
+  doi: https://doi.org/10.1029/2023GL104803
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Abstract Using 42 years of reanalysis data, we investigate regional, storm-relative characteristics of three groups of Atlantic tropical cyclone intensification: slightly, moderately, and rapidly intensifying. Probability density functions are distinct between these groups for vertical wind shear, sea surface temperature (SST), and radius of maximum winds (RMW), but less so for relative humidity (RH). In the Gulf of Mexico and southern North Atlantic, shear and RMW are good predictors. In the open Atlantic, north of 22°N, shear and SST are the best predictors. In the Caribbean, weaker relationships suggest low statistical predictability in a region where RI cases increased between 1980–2000 and 2001–2021. Of our storm-relative variables tested, increasing SST appears to be most closely connected to the 36% increase in rapidly intensifying events between the two periods, whereas shear and RH are not significantly more favorable. The variability across regions, periods, and variables motivates further investigation."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Majumdar_etal_GRL_2023.bib 
+  pdf: ../Publications/papers/Majumdar_etal_GRL_2023.pdf
+  keyword1: Rapid Intensification 
+  keyword2: Tropical Cyclones
+  keyword3: Hurricanes
+- id: Zhu_etal_AAAG_2023.yml
+  year: 2023
+  title: "Accumulated Cyclone Energy-Based Tropical Cyclone Return Periods in Florida"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Yi-Jie Zhu, Jennifer Collins, Joanne Muller and Philip Klotzbach
+  journal: Annals of the American Association of Geographers 
+  others:  113
+  doi: https://doi.org/10.1080/24694452.2023.2230288
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This article introduces an accumulated cyclone energy (ACE) approach for estimating the return period of tropical cyclone (TC) wind risk in Florida. As opposed to calculating return periods directly from maximum sustained wind speed, the ACE-based approach also describes the duration of the strong winds, giving an additional dimension to the assessment of TC wind risks. Because Florida is a peninsula, TCs can move across the state within six hours of landfall, causing an underestimation of the inland wind footprint if only the six-hour reanalysis track points are employed as an input data source. This study uses four different scenarios and an inland exponential decay function to interpolate the wind speed between the six-hour reanalysis track points to feed the ACE-based return period calculation based on a 121-year record from 1900 to 2020. South Florida has the shortest return period (five to tenyears) of TCs with an ACE equivalent to one hour of hurricane intensity (greater than or equal to 64 kt; 1 kt is approximately 0.51 m/s) caused by intense historical hurricane strikes, and Polk County in inland central Florida has an equal return period due to frequent and long-duration TC occurrences, acting as an intersection for landfalling TCs in the Florida peninsula."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Zhu_etal_AAAG_2023.bib 
+  pdf: ../Publications/papers/Zhu_etal_AAAG_2023.pdf
+  keyword1: Florida peninsula
+  keyword2: inland wind risk
+  keyword3: Hurricane
+- id: Jury_NievesJimenez_2021.yml
+  year: 2021
+  title: "Tropical Atlantic dust and the zonal circulation"
+  author1: nieves-jimenez 
+  author2: false
+  author3: false
+  authors: Mark R. Jury and Angelie T. Nieves-Jimenez
+  journal: Theoretical and Applied Climatology
+  others:  143
+  doi: https://doi.org/10.1007/s00704-020-03461-4
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This study examines the factors driving the variability of Saharan dust over the subtropical Atlantic during summer. Monthly tropospheric dust concentrations from satellite-based model assimilation averaged in the area 10–23 N, 30–65 W, are used to create an index over the period 1980–2017. The seasonal cycle peaks in summer and affects tropical cyclones from July to September. Point-to-field regression analysis is performed, and then composites of dusty and clean seasons are analyzed as maps and sections of meteorological fields. The regression reveals significant differences in oceanic trade winds, (detrended) sea surface temperature, and atmospheric convection. Dusty minus clean composites show a zonal overturning circulation with sinking/rising motions over Africa/western Caribbean and lower easterlies/upper westerlies over the subtropical Atlantic. This circulation spreads Saharan dust and warm dry air in the 1–4 km layer westward at ~ 10 m/s over cooler waters, inhibiting convection. Among the factors driving tropospheric dust variability is the Pacific El Niño Southern Oscillation. Composites of dusty and clean hurricane occurrence show a threefold difference in numbers and a tenfold difference in mean power dissipation index. Analysis of a dust event in August 2009 illustrates how wind shear and cool SST conspire to suppress tropical easterly waves.  Supplementary work characterizes the dispersion of a dense Saharan dust plume in June 2020 "
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Jury_NievesJimenez_2021.bib 
+  pdf: ../Publications/papers/Jury_NievesJimenez_2021.pdf
+  keyword1: Saharan dust
+  keyword2: tropical cyclones
+  keyword3: ENSO
+- id: RiosBerrios_etal_2023.yml
+  year: 2023
+  title: "Observing the Diurnal Cycle of Coastal Rainfall over Western Puerto Rico in Collaboration with University of Puerto Rico Students"
+  author1: nieves-jimenez 
+  author2: false
+  author3: false
+  authors: "Rosimar Rios-Berrios and Naoko Sakaeda and Hector J. Jemenez-Gonzalez and Angelie T. Nieves-Jimenez and Yidiana Zayas and Elinor Martin and Shun-Nan Wu and Cameron R. Homeyer and Ernesto Rodriguez"
+  journal: Bulletin of the American Meteorological Society
+  others:  104
+  doi: https://doi.org/10.1175/BAMS-D-21-0322.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  keyword1: rainfall
+  keyword2: coastal meteorology
+  keyword3: radiosonde/rawinsonde observations
+  abstract: "The diurnal cycle of coastal rainfall over western Puerto Rico was studied with high-frequency radiosondes launched by undergraduate students at the University of Puerto Rico at Mayagüez (UPRM). Thirty radiosondes were launched during a 3-week period as part of NASA’s Convective Processes Experiment—Aerosols and Winds (CPEX-AW) field project. The objective of the radiosonde launches over Puerto Rico was to understand the evolution of coastal convective systems that are often challenging to predict. Four different events were sampled: 1) a short-lived rainfall event during a Saharan air dust outbreak, 2) a 2-day period of limited rainfall activity under northeasterly wind conditions, 3) a 2-day period of heavy rainfall over land, and 4) a 2-day period of long-lived rainfall events that initiated over land and propagated offshore during the evening hours. The radiosondes captured the sea-breeze onset during the midmorning hours, an erosion of lower-tropospheric inversions, and substantial differences in column humidity between the four events. All radiosondes were launched by volunteer undergraduate students who were able to participate in person, while the coordination was done virtually with lead scientists located in Puerto Rico, Oklahoma, and Saint Croix. Overall, this initiative highlighted the importance of student–scientist collaboration in collecting critical observations to better understand complex atmospheric processes."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: "We are incredibly grateful to the late Dr. Gail Skofronick-Jackson, who was the NASA Project Manager for CPEX-AW, for supporting our radiosonde project. We are also indebted to all the UPRM students, UPRM professors, and NCAR scientists who contributed, one way or another, to the successful launch of our radiosondes. Many thanks also to the weather forecasters of the National Weather Service San Juan Office who provided forecasts, guidance, and feedback for our project. Comments from four anonymous reviewers helped improve this manuscript. This work was funded by NASA under Grant 80NSSC20K0901. The first author acknowledges that this material is based upon work supported by NCAR, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977."
+  bibtex: ../Publications/bibtex/RiosBerrios_etal_2023.bib 
+  pdf: ../Publications/papers/RiosBerrios_etal_2023.pdf
+- id: Andrews_etal_2018.yml
+  year: 2018
+  title: "Accounting for Changing Temperature Patterns Increases Historical Estimates of Climate Sensitivity"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Andrews, Timothy and Gregory, Jonathan M. and Paynter, David and Silvers, Levi G. and Zhou, Chen and Mauritsen, Thorsten and Webb, Mark J. and Armour, Kyle C. and Forster, Piers M. and Titchner, Holly
+  journal: Geophysical Research Letters
+  others:  45 
+  doi: https://doi.org/10.1029/2018GL078887
+  keypoint1: Climate sensitivity simulated for observed surface temperature change is smaller than for long-term carbon dioxide increases 
+  keypoint2: Observed historical energy budget constraints give climate sensitivity values that are too low and overly constrained, particularly at the upper end 
+  keypoint3: Historical energy budget changes only weakly constrain climate sensitivity 
+  abstract: "Eight atmospheric general circulation models (AGCMs) are forced with observed historical (1871–2010) monthly sea surface temperature and sea ice variations using the Atmospheric Model Intercomparison Project II data set. The AGCMs therefore have a similar temperature pattern and trend to that of observed historical climate change. The AGCMs simulate a spread in climate feedback similar to that seen in coupled simulations of the response to CO2 quadrupling. However, the feedbacks are robustly more stabilizing and the effective climate sensitivity (EffCS) smaller. This is due to a pattern effect, whereby the pattern of observed historical sea surface temperature change gives rise to more negative cloud and longwave clear-sky feedbacks. Assuming the patterns of long-term temperature change simulated by models, and the radiative response to them, are credible; this implies that existing constraints on EffCS from historical energy budget variations give values that are too low and overly constrained, particularly at the upper end. For example, the pattern effect increases the long-term Otto et al. (2013, https://doi.org/10.1038/ngeo1836) EffCS median and 5–95% confidence interval from 1.9 K (0.9–5.0 K) to 3.2 K (1.5–8.1 K)."
+  summary: "Recent decades have seen cooling over the eastern tropical Pacific and Southern Oceans while temperatures rise globally. Climate models indicate that these regional features, and others, are not expected to continue into the future under sustained forcing from atmospheric carbon dioxide increases. This matters because climate sensitivity depends on the pattern of warming, so if the past has warmed differently from what we expect in the future, then climate sensitivity estimated from the historical record may not apply to the future. We investigate this with a suite of climate models and show that climate sensitivity simulated for observed historical climate change is smaller than for long-term carbon dioxide increases. The results imply that historical energy budget changes only weakly constrain climate sensitivity."
+  image: ../Publications/figures/Andrews_etal_2018_Fig3.png 
+  caption: "Comparison of the effective climate sensitivity probability distribution function from a historical energy budget constraint (Otto et al., 2013), before (black) and after (colors) accounting for the pattern effect between historical climate change and abrupt-4xCO2. Red accounts for the pattern effect by scaling the historical feedback parameter λhist by the ratio (S = λ4xCO2/λamip) of the feedbacks found in the amip-piForcing and abrupt-4xCO2 simulations. Blue accounts for the pattern effect by adding the difference in feedbacks (Δλ = λ4xCO2 − λamip) to λhist (see section 4 and Table 1). Box plots show the 5–95% confidence interval (end bars), the 17–83% confidence interval (box ends), and the median (line in box)." 
+  acknowledgement: "Global annual time series data of temperature and radiative flux change in the amip-piForcing simulations, as well as the abrupt-4xCO2 simulations not in the CMIP5 archive, are provided in the supporting information. We thank Michael Winton, Tom Knutson, Mark Ringer, Gareth Jones, and two anonymous reviewers for constructive comments. T. A., J. M. G., and M. J. W. were supported by the Met Office Hadley Centre Climate Programme funded by BEIS and Defra. P. M. F. was supported by grant NE/N006038/1. K. C. M. was supported by NSF award AGS-1752796."
+  bibtex: ../Publications/bibtex/Andrews_etal_2018.bib 
+  pdf: ../Publications/papers/Andrews_etal_2018.pdf
+  keyword1: pattern effect
+  keyword2: climate sensitivity
+  keyword3: sea surface temperature
+- id: Reed_etal_2021.yml
+  year: 2021
+  title: Using Radiative Convective Equilibrium to Explore Clouds and Climate in the Community Atmosphere Model
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Reed, Kevin A., and Silvers, Levi G., and Wing, Allison A. and Hu, I-Kuan and Medeiros, Brian
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  13, e2021MS002539
+  doi: https://doi.org/10.1029/2021MS002539
+  keypoint1: "A new radiative-convective equilibrium (RCE) configuration is added to the official release of Community Earth System Model (CESM) to facilitate the use of Radiative-Convective Equilibrium Model Intercomparison Project (RCEMIP) in the CESM hierarchy" 
+  keypoint2: "The Community Atmosphere Model version 5 and Community Atmosphere Model version 6 (CAM6) RCEMIP climate states and variation across SST experiments are documented in the context of the CESM hierarchy" 
+  keypoint3: "Differing parameterizations lead to
+a reduction of low-level clouds in CAM6, consistent with differences in more realistic simulations"
+  abstract: "Abstract Characteristics of, and fundamental differences between, the radiative-convective equilibrium (RCE) climate states following the Radiative-Convective Equilibrium Model Intercomparison Project (RCEMIP) protocols in the Community Atmosphere Model version 5 (CAM5) and version 6 (CAM6) are presented. This paper explores the characteristics of clouds, moisture, precipitation and circulation in the RCE state, as well as the tropical response to surface warming, in CAM5 and CAM6 with different parameterizations. Overall, CAM5 simulates higher precipitation rates that result in larger global average precipitation, despite lower outgoing longwave radiation compared to CAM6. Differences in the structure of clouds, particularly the amount and vertical location of cloud liquid, exist between the CAM versions and can, in part, be related to distinct representations of shallow convection and boundary layer processes. Both CAM5 and CAM6 simulate similar peaks in cloud fraction, relative humidity, and cloud ice, linked to the usage of a similar deep convection parameterization. These anvil clouds rise and decrease in extent in response to surface warming. More generally, extreme precipitation, aggregation of convection, and climate sensitivity increase with warming in both CAM5 and CAM6. This analysis provides a benchmark for future studies that explore clouds, convection, and climate in CAM with the RCEMIP protocols now available in the Community Earth System Model. These results are discussed within the context of realistic climate simulations using CAM5 and CAM6, highlighting the usefulness of a hierarchical modeling approach to understanding model and parameterization sensitivities to inform model development efforts." 
+  summary: "Clouds, circulations and rainfall in the tropics play an important role
+in Earth's climate. However, global climate models differ in their representation of these features, contributing to uncertainty in future climate projections. One useful tool to better understand model differences and inform efforts to improve models is to analyze idealized configurations. We explore two different numerical representations of an idealized atmosphere relevant to tropical regions to determine the impact on the characteristics of clouds, rainfall and circulations as well as the tropical atmospheric response to warming.  We show that our idealized models mirror differences in the low-cloud structure in the deep tropics of more realistic models. This work also finds similarities between the two numerical representations, such as a decrease in the spatial extent of high altitude clouds with warming. As the surface is warmed, both versions also show increases in the clustering of clouds, the likelihood of extreme precipitation rates, and an estimate of how much warming would occur in response to a doubling of carbon dioxide."
+  image: 
+  caption: 
+  acknowledgement: "Reed and Silvers acknowledge support from NSF award number 1830729, Wing acknowledges support from NSF award number 1830724, Hu acknowledges sup- port from NSF award number 1917328, and Medeiros acknowledges support from the Regional and Global Model Analysis component of the Earth and Environmental System Modeling Program of the U.S. Department of Energy via NSF IA 1844590. This material is based upon work supported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement No. 1852977. The authors would also like to acknowledge Dr. Colin Zarzycki (Pennsylvania State University), Dr. Vincent Larson (University of Wisconsin-Milwaukee), Dr. Andrew Gettelman (NCAR) and Dr. Adam Herrington (NCAR) for guidance in exploring sensitivities in the CAM6 simulations, Gary Strand (NCAR) for help with formatting CAM output for RCEMIP, and Cheryl Craig (NCAR) for software engineering related to the QPRCEMIP compset in CESM. Finally, the authors would also like to thank four anonymous reviewers for their constructive and thorough reviews. We would like to acknowledge high-performance computing support from Cheyenne (https:// doi.org/10.5065/D6RX99HX) provided by NCAR's Computational and Information Systems Laboratory, sponsored by the National Science Foundation." 
+  bibtex: ../Publications/bibtex/Reed_etal_2021.bib 
+  pdf: ../Publications/papers/Reed_etal_2021.pdf
+  keyword1: radiative-convective equilibrium
+  keyword2: tropical convection 
+  keyword3: convective aggregation 
+- id: Burnett_etal_2021.yml
+  year: 2021
+  title: "Tropical Cyclone Frequency Under Varying SSTs in Aquaplanet Simulations"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Burnett, Adam C. and Sheshadri, Aditi and Silvers, Levi G. and Robinson, Thomas 
+  journal: Geophysical Research Letters
+  others:  48, e2020GL091980 
+  doi: https://doi.org/10.1029/2020GL091980
+  keypoint1: Global tropical cyclone frequency is found to be proportional to the Coriolis parameter at the intertropical convergence zone 
+  keypoint2: The same proportionality obtained from aquaplanet simulations also applies to tropical cyclone frequency on the observed Earth 
+  keypoint3: Many tropical cyclones occur even when the location of maximum sea surface temperature is shifted into the midlatitudes
+  abstract: "Global tropical cyclone (TC) frequency is investigated in a 50-km-resolution aquaplanet model forced by zonally symmetric sea surface temperature (SST). TC frequency per unit area is found to be proportional to the Coriolis parameter at the intertropical convergence zone (ITCZ), as defined by the latitude of maximum precipitation. As the latitude of maximum SST is shifted northward from the equator, the precipitation maximum moves northward and TC frequency increases. When the SST maximum is shifted northward past 25°N, the precipitation maximum remains between 15°N and 20°N, and TC frequency per unit area is approximately constant. When applied to observed precipitation and SST data, the same scaling captures a substantial fraction of observed TCs. Results suggest that future changes in TC activity will be modulated by changes in the large-scale circulation, and in particular that the ITCZ location is an important determinant of the number of TCs."
+  summary: "Tropical cyclones (TCs), including hurricanes, can be extremely destructive and costly, so it is important to know how often they will occur in the future. Earth presently experiences about 90 TCs per year, but whether this number will change due to climate change is uncertain. A theory describing what physical quantities determine the global number of TCs would improve predictions of future TC frequency. In this study, we search for possible ingredients in such a theory by using a simplified global climate model without seasons or land. When we shift the temperature distribution of the ocean surface northward, the TC frequency changes. Through statistical analysis and physical reasoning, these changes in global TC frequency are explained by two physical quantities. One of these quantities depends on the position of the intertropical convergence zone, defined in this study as the latitude of maximum rainfall in the tropics. The other quantity depends on the latitude of maximum ocean surface temperature. These results suggest that any physical theory describing global TC frequency must be consistent with these two quantities. This finding marks a step toward more complete understanding, and improved future projections, of TC frequency." 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Burnett_etal_2021.bib 
+  pdf: ../Publications/papers/Burnett_etal_2021.pdf
+  keyword1: aquaplanet simulations
+  keyword2: hurricane frequency
+  keyword3: intertropical convergence zone
+- id: Popp_Silvers_2017.yml
+  year: 2017
+  title: "Double and Single ITCZs with and without Clouds"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Popp, Max and Silvers, Levi G. 
+  journal: Journal of Climate 
+  others:  30 
+  doi: https://doi.org/10.1175/JCLI-D-17-0062.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "A major bias in tropical precipitation over the Pacific in climate simulations stems from the models’ tendency to produce two strong distinct intertropical convergence zones (ITCZs) too often. Several mechanisms have been proposed that may contribute to the emergence of two ITCZs, but current theories cannot fully explain the bias. This problem is tackled by investigating how the interaction between atmospheric cloud- radiative effects (ACREs) and the large-scale circulation influences the ITCZ position in an atmospheric general circulation model. Simulations are performed in an idealized aquaplanet setup and the longwave and shortwave ACREs are turned off individually or jointly. The low-level moist static energy (MSE) is shown to be a good predictor of the ITCZ position. Therefore, a mechanism is proposed that explains the changes in MSE and thus ITCZ position due to ACREs consistently across simulations. The mechanism implies that the ITCZ moves equatorward if the Hadley circulation strengthens because of the increased upgradient advec- tion of low-level MSE off the equator. The longwave ACRE increases the meridional heating gradient in the tropics and as a response the Hadley circulation strengthens and the ITCZ moves equatorward. The shortwave ACRE has the opposite effect. The total ACRE pulls the ITCZ equatorward. This mechanism is discussed in other frameworks involving convective available potential energy, gross moist stability, and the energy flux equator. It is thus shown that the response of the large-scale circulation to the shortwave and longwave ACREs is a fundamental driver of changes in the ITCZ position."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Popp_Silvers_2017.bib 
+  pdf: ../Publications/papers/Popp_Silvers_2017.pdf
+  keyword1: aquaplanet simulations
+  keyword2: intertropical convergence zone
+  keyword3: cloud radiative effect
+- id: Silvers_Schubert_2012.yml
+  year: 2012
+  title: "A Theory of Topographically Bound Balanced Motions and Application to Atmospheric Low-Level Jets"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Silvers, Levi G. and Schubert Wayne H.
+  journal: Journal of the Atmospheric Sciences
+  others:  69 
+  doi: https://doi.org/10.1175/JAS-D-11-0309.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "The subject of this study is topographically bound low-level jets, such as the South American summertime low-level jet on the eastern side of the Andes and its companion, the Chilean low-level jet on the western side of the Andes. These jets are interpreted as balanced flows that obey the potential vorticity invertibility principle. This invertibility principle is expressed in isentropic coordinates, and the mathematical issue of isentropes that intersect the topography is treated by the method of a massless layer. In this way, the low-level jets on the western and eastern sides of the Andes can both be attributed to the infinite potential vorticity that lies in the infinitesimally thin massless layer on the topographic feature. To obtain a cyclonic flow centered on the topographic feature, the mountain crest must have been heated enough to draw down the overlying isentropic surfaces; otherwise, isentropic surfaces bend upward at the mountain crest and an anticyclonic flow is produced. Both anticyclonic and cyclonic solutions are obtained here using analytical and numerical methods to solve the invertibility principle. The summertime topographically bound flows discussed here are quite distinct from the wintertime Rossby wave train patterns that occur when strong westerlies impinge on the topography." 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Silvers_Schubert_2012.bib 
+  pdf: ../Publications/papers/Silvers_Schubert_2012.pdf
+  keyword1: low-level jets
+  keyword2: topographically bound flow
+  keyword3: balanced potential vorticity
+- id: Held_etal_2019.yml
+  year: 2019
+  title: Structure and Performance of GFDL's CM4.0 Climate Model
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Held, I. M. and Guo, H. and Adcroft, A. and Dunne, J. P. and Horowitz, L. W. and Krasting, J. and Shevliakova, E. and Winton, M. and Zhao, M. and Bushuk, M. and Wittenberg, A. T. and Wyman, B. and Xiang, B. and Zhang, R. and Anderson, W. and Balaji, V. and Donner, L. and Dunne, K. and Durachta, J. and Gauthier, P. P. G. and Ginoux, P. and Golaz, J.-C. and Griffies, S. M. and Hallberg, R. and Harris, L. and Harrison, M. and Hurlin, W. and John, J. and Lin, P. and Lin, S.-J. and Malyshev, S. and Menzel, R. and Milly, P. C. D. and Ming, Y. and Naik, V. and Paynter, D. and Paulot, F. and Ramaswamy, V. and Reichl, B. and Robinson, T. and Rosati, A. and Seman, C. and Silvers, L. G. and Underwood, S. and Zadeh, N.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  11 
+  doi: https://doi.org/10.1029/2019MS001829
+  keypoint1: A team at GFDL has developed a new model of the physical climate system referred to as CM4.0 
+  keypoint2: Strengths of model include ENSO simulation and small biases in TOA fluxes, precipitation, Arctic sea ice extent, and sea surface temperature 
+  keypoint3: Problematic aspects include large variability in Southern Ocean and historical simulation with little warming prior to 1990
+  abstract: "We describe the Geophysical Fluid Dynamics Laboratory's CM4.0 physical climate model, with emphasis on those aspects that may be of particular importance to users of this model and its simulations. The model is built with the AM4.0/LM4.0 atmosphere/land model and OM4.0 ocean model. Topics include the rationale for key choices made in the model formulation, the stability as well as drift of the preindustrial control simulation, and comparison of key aspects of the historical simulations with observations from recent decades. Notable achievements include the relatively small biases in seasonal spatial patterns of top-of-atmosphere fluxes, surface temperature, and precipitation; reduced double Intertropical Convergence Zone bias; dramatically improved representation of ocean boundary currents; a high-quality simulation of climatological Arctic sea ice extent and its recent decline; and excellent simulation of the El Niño-Southern Oscillation spectrum and structure. Areas of concern include inadequate deep convection in the Nordic Seas; an inaccurate Antarctic sea ice simulation; precipitation and wind composites still affected by the equatorial cold tongue bias; muted variability in the Atlantic Meridional Overturning Circulation; strong 100 year quasiperiodicity in Southern Ocean ventilation; and a lack of historical warming before 1990 and too rapid warming thereafter due to high climate sensitivity and strong aerosol forcing, in contrast to the observational record. Overall, CM4.0 scores very well in its fidelity against observations compared to the Coupled Model Intercomparison Project Phase 5 generation in terms of both mean state and modes of variability and should prove a valuable new addition for analysis across a broad array of applications." 
+  summary: "The Geophysical Fluid Dynamics Laboratory (GFDL) of the National Oceanic and Atmospheric Administration participates along with a number of model centers around the world in constructing state-of-the-art climate models for use in studies for climate change and prediction. GFDL's latest multipurpose atmosphere-ocean coupled climate model, CM4.0, is described here. It consists of GFDL's latest atmosphere and land models at about 100 km horizontal resolution and ocean and sea ice models at roughly 25 km horizontal resolution. A handful of standard experiments have been conducted with CM4.0 for participation in the Coupled Model Intercomparison Project Phase 6,
+an archive of climate model results utilized by the Intergovernmental Panel on Climate Change and the climate research community more generally. The model results have been extensively evaluated against observations. This paper makes the case that CM4.0 ranks high among state-of-the-art coupled climate models by many measures of bias in the simulated climatology and in its ability to capture modes of climate variability such as the El Niño-Southern Oscillation and Madden-Julian Oscillation. The paper also discusses some potential weaknesses, including unrealistically large internal variability in the Southern Ocean and insufficient warming before 1990 in the simulation of the twentieth century."
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Held_etal_2019.bib 
+  pdf: ../Publications/papers/Held_etal_2019.pdf
+  keyword1: Coupled Model Development
+  keyword2: ENSO simulation
+  keyword3: 
+- id: Pasillas_etal_2024.yml
+  year: 2024
+  title: "Turning Night Into Day: The Creation and Validation of Synthetic Night-time Visible Imagery Using the Visible Infrared Imaging Radiometer Suite (VIIRS) Day-Night Band (DNB) and Machine Learning"
+  author1: pasillas 
+  author2: bell 
+  author3: false
+  authors: Chandra M. Pasillas and Christian Kummerow and Michael Bell and Steven D. Miller
+  journal: "Artificial Intelligence for the Earth Systems"
+  others:  3
+  doi: https://doi.org/10.1175/AIES-D-23-0002.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Meteorological satellite imagery is a critical asset for observing and forecasting weather phenomena. The Joint Polar Satellite System (JPSS) Visible Infrared Imaging Radiometer Suite (VIIRS) Day-Night Band (DNB) sensor collects measurements from moonlight, airglow, and artificial lights. DNB radiances are then manipulated and scaled with a focus on digital display. DNB imagery performance is tied to the lunar cycle, with best performance during the full moon and worst with the new moon. We propose using feed-forward neural networks models to transform brightness temperatures and wavelength differences in the infrared spectrum to a pseudo lunar reflectance value based on lunar reflectance values derived from observed DNB radiances. JPSS NOAA-20 and Suomi National Polar-orbiting Partnership (SNPP) satellite data over the North Pacific Ocean at night for full moon periods from December 2018 - November 2020 were used to design the models. The pseudo lunar reflectance values are quantitatively compared to DNB lunar reflectance, providing the first-ever lunar reflectance baseline metrics. The resulting imagery product, Machine Learning Night-time Visible Imagery (ML-NVI), is qualitatively compared to DNB lunar reflectance and infrared imagery across the lunar cycle. The imagery goal is not only to improve upon the consistency performance of DNB imagery products across the lunar cycle, but ultimately lay the foundation for transitioning the algorithm to geostationary sensors, making global continuous nighttime imagery possible. ML-NVI demonstrates its ability to provide DNB derived imagery with consistent contrast and representation of clouds across the full lunar cycle for night-time cloud detection."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Pasillas_etal_2024.bib 
+  pdf: ../../Publications/papers/Pasillas_etal_2024.pdf
+  keyword1: satellite imagery
+  keyword2: feed-forward neural networks
+  keyword3: nighttime imagery
+- id: Wing_etal_2020.yml
+  year: 2020
+  title: Clouds and Convective Self-Aggregation in a Multimodel Ensemble of Radiative-Convective Equilibrium Simulations
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Wing, Allison A. and Stauffer, Catherine L. and Becker, Tobias and Reed, Kevin A. and Ahn, Min-Seop and Arnold, Nathan P. and Bony, Sandrine and Branson, Mark and Bryan, George H. and Chaboureau, Jean-Pierre and De Roode, Stephan R. and Gayatri, Kulkarni and Hohenegger, Cathy and Hu, I-Kuan and Jansson, Fredrik and Jones, Todd R. and Khairoutdinov, Marat and Kim, Daehyun and Martin, Zane K. and Matsugishi, Shuhei and Medeiros, Brian and Miura, Hiroaki and Moon, Yumin and Müller, Sebastian K. and Ohno, Tomoki and Popp, Max and Prabhakaran, Thara and Randall, David and Rios-Berrios, Rosimar and Rochetin, Nicolas and Roehrig, Romain and Romps, David M. and Ruppert Jr., James H. and Satoh, Masaki and Silvers, Levi G. and Singh, Martin S. and Stevens, Bjorn and Tomassini, Lorenzo and van Heerwaarden, Chiel C. and Wang, Shuguang and Zhao, Ming
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  12 
+  doi: https://doi.org/10.1029/2020MS002138
+  keypoint1: Temperature, humidity, and clouds in radiative‐convective equilibrium vary substantially across models 
+  keypoint2: Models agree that self‐aggregation dries the atmosphere and reduces high cloudiness 
+  keypoint3: There is no consistency in how self‐aggregation depends on warming 
+  abstract: "Abstract The Radiative-Convective Equilibrium Model Intercomparison Project (RCEMIP) is an intercomparison of multiple types of numerical models configured in radiative-convective equilibrium (RCE). RCE is an idealization of the tropical atmosphere that has long been used to study basic questions in climate science. Here, we employ RCE to investigate the role that clouds and convective activity play in determining cloud feedbacks, climate sensitivity, the state of convective aggregation, and the equilibrium climate. RCEMIP is unique among intercomparisons in its inclusion of a wide range of model types, including atmospheric general circulation models (GCMs), single column models (SCMs), cloud-resolving models (CRMs), large eddy simulations (LES), and global cloud-resolving models (GCRMs). The first results are presented from the RCEMIP ensemble of more than 30 models. While there are large differences across the RCEMIP ensemble in the representation of mean profiles of temperature, humidity, and cloudiness, in a majority of models anvil clouds rise, warm, and decrease in area coverage in response to an increase in sea surface temperature (SST). Nearly all models exhibit self-aggregation in large domains and agree that self-aggregation acts to dry and warm the troposphere, reduce high cloudiness, and increase cooling to space. The degree of self-aggregation exhibits no clear tendency with warming. There is a wide range of climate sensitivities, but models with parameterized convection tend to have lower climate sensitivities than models with explicit convection. In models with parameterized convection, aggregated simulations have lower climate sensitivities than unaggregated simulations."
+  summary: "This study investigates tropical clouds and climate using results from more than 30 different numerical models set up in a simplified framework. The data set of model simulations is unique in that it includes a wide range of model types configured in a consistent manner. We address some of the biggest open questions in climate science, including how cloud properties change with warming and the role that the tendency of clouds to form clusters plays in determining the average climate and how climate changes. While there are large differences in how the different models simulate average temperature, humidity, and cloudiness, in a majority of models, the amount of high clouds decreases as climate warms. Nearly all models simulate a tendency for clouds to cluster together. There is agreement that when the clouds are clustered, the atmosphere is drier with fewer clouds overall. We do not find a conclusive result for how cloud clustering changes as the climate warms." 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Wing_etal_2020.bib 
+  pdf: ../Publications/papers/Wing_etal_2020.pdf
+  keyword1: radiative-convective equilibrium model intercomparison project
+  keyword2: convective aggregation
+  keyword3: climate sensitivity
+- id: Cha_Bell_2024.yml
+  year: 2024
+  title: "Tropical cyclone asymmetric eyewall evolution and intensification in a two-layer model"
+  author1: cha 
+  author2: bell 
+  author3: false
+  authors: Ting-Yu Cha and Michael Bell 
+  journal: "Weather and Climate Dynamics"
+  others:  5
+  doi: https://doi.org/10.5194/wcd-5-1013-2024
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Radar and satellite imagery of numerous intensifying tropical cyclones (TCs) depict an appearance of a polygonal eyewall structure where deep convection is often located near the polygonal vertices. A recent observational study of Hurricane Michael’s (2018) polygonal eye-wall evolution suggests that the vorticity asymmetries are coupled with the reflectivity asymmetries during rapid intensification. Conceptual theory of a polygonal eyewall structure has been linked to vortex Rossby waves (VRWs) and the breakdown of an enhanced potential vorticity (PV) ring, but how the asymmetries affect TC intensification remains unclear. Non-divergent barotropic models have previously been employed to study polygonal eyewall dynamics, but this approach has limitations due to the importance of diabatic heating to PV generation and the intensification process. Results from prior studies motivate us to explore the nature of the relationship between asymmetric vorticity and vertical velocity in the free atmosphere and the boundary layer and their compound impacts on the TC intensification process. Here we use a simple two-layer model framework with a shallow-water model on top of a slab boundary layer (SBL) model to simulate a frictional boundary layer underneath the free atmosphere. Results from simulating a wavenumber 2 elliptical asymmetry suggest the VRW in the free atmosphere can organize the updrafts in the SBL, which is consistent with radar observations of enhanced reflectivity at the polygonal vertices. Free atmospheric divergence in the shallow-water layer does not explain the coupling between vorticity and reflectivity. The coupling can be explained to first order by the one-way boundary layer response to the pressure gradient associated with the free atmospheric vorticity asymmetries, consistent with prior studies. Further simulations that allow two-way interaction between the layers show that the organization of the updrafts out of the SBL plays a critical role in the growth of a PV ring and intensification of the mean vortex. In this framework, diabatic heating in the shallow-water layer parameterized by a mass sink driven by the free atmosphere–SBL interaction leads to rapid intensification of the vortex, thinning of the PV ring, and eventual barotropic instability and PV mixing. The simplified modeling framework with two-way interactions captures many of the essential dynamics of rapid intensification in the presence of evolving asymmetries, similar to those seen in the observations from Hurricane Michael (2018), which provides new insight into the complex interactions between dynamics and convection during hurricane intensification."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Cha_Bell_2024.bib 
+  pdf: ../Publications/papers/Cha_Bell_2024.pdf
+  keyword1: Tropical cyclone evolution
+  keyword2: numerical model
+  keyword3: potential vorticity dynamics
+- id: Thorne_etal_2023.yml
+  year: 2023
+  title: "Effects of wind on the movement, behavior, energetics, and life history of seabirds"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Thorne, L.H. and Clay, T. A. and Phillips, R. A. and Silvers, L. G. and Wakefield, E. D.
+  journal: Marine Ecology Progress Series 
+  others:  723 
+  doi: https://doi.org/10.3354/meps14417
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "For decades, studies have highlighted links between wind patterns and the behavior, ecology, distribution, energetics and life history of seabirds. However, only relatively recently have advancements in tracking technologies and improvements in the resolution of globally-available wind data allowed wind impacts on seabirds to be quantified across multiple spatiotemporal scales. Here, we review and synthesize current knowledge of the effects of wind on seabirds. We first describe global patterns of wind circulation and relevant atmospheric processes and discuss the relationship between seabird morphology, flight performance and behavior relative to wind. We then develop a conceptual model linking seabird movement strategies to wind, morphology, flight capabilities and central-place constraint. Finally, we examine how wind influences seabird populations via effects on flight efficiency and energetics, and wind impacts associated with climate variability and severe weather. We conclude by highlighting research priorities for advancing our understanding of the effects of wind on seabird ecology and behavior; these include assessing how and to what extent seabirds use ocean waves for efficient flight, understanding how seabirds sense and anticipate wind patterns, and examining how wind has shaped seabird evolution. Future research should also focus on assessing how wind modulates habitat accessibility, and how this knowledge could be incorporated into theory of seabird habitat use. Moreover, approaches that focus on mechanistic links between climate, wind and demography are needed to assess population-level effects, and will be imperative to understanding how sea- birds may be impacted by climate-driven changes to wind patterns."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Thorne_etal_2023.bib 
+  pdf: ../Publications/papers/Thorne_etal_2023.pdf
+  keyword1: Marine birds
+  keyword2: wind patterns
+  keyword3: morphology
+- id: Winton_etal_2020.yml
+  year: 2020
+  title: "Climate Sensitivity of GFDL's CM4.0"
+  author1: silvers 
+  author2: false
+  author3: false
+  authors: Winton, M. and Adcroft, A. and Dunne, J. P. and Held, I. M. and Shevliakova, E. and Zhao, M. and Guo, H. and Hurlin, W. and Krasting, J. and Knutson, T. and Paynter, D. and Silvers, L. G. and Zhang, R.
+  journal: "Journal of Advances in Modeling Earth Systems"
+  others:  12
+  doi: https://doi.org/10.1029/2019MS001838
+  keypoint1: CM4.0 has high equilibrium and transient climate sensitivities, both near the CMIP5 75th percentile 
+  keypoint2: The energy budget sensitivity estimation method significantly underestimates CM4.0's sensitivities 
+  keypoint3: CM4.0's excessive warming over recent decades most likely indicates excessive transient sensitivity 
+  abstract: GFDL's new CM4.0 climate model has high transient and equilibrium climate sensitivities near the middle of the upper half of CMIP5 models. The CMIP5 models have been criticized for excessive sensitivity based on observations of present-day warming and heat uptake and estimates of radiative forcing. An ensemble of historical simulations with CM4.0 produces warming and heat uptake that are consistent with these observations under forcing that is at the middle of the assessed distribution. Energy budget-based methods for estimating sensitivities based on these quantities underestimate CM4.0's sensitivities when applied to its historical simulations. However, we argue using a simple attribution procedure that CM4.0's warming evolution indicates excessive transient sensitivity to greenhouse gases. This excessive sensitivity is offset prior to recent decades by excessive response to aerosol and land use changes. 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Winton_etal_2020.bib 
+  pdf: ../Publications/papers/Winton_etal_2020.pdf
+  keyword1: climate sensitivity
+  keyword2: transient sensitivity
+  keyword3: climate model
+- id: Klotzbach_etal_BAMS2024.yml
+  year: 2024
+  title: "The 2023 Atlantic Hurricane Season: An Above-Normal Season Despite Strong El Niño Conditions"
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P. J.,J. J. Jones, K. M. Wood, M. M. Bell, E. S. Blake, S. G. Bowen, L.-P. Caron, D. R. Chavas, J. M. Collins, E. J. Gibney, C. J. Schreck III; R. E. Truchelut
+  journal: Bull. Amer. Meteor. Soc
+  others: EOR
+  doi: https://doi.org/10.1175/BAMS-D-23-0305.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: "The 2023 Atlantic hurricane season was above normal, producing 20 named storms, 7 hurricanes, 3 major hurricanes and seasonal Accumulated Cyclone Energy that exceeded the 1991–2020 average. Hurricane Idalia was the most damaging hurricane of the year, making landfall as a Category 3 hurricane in Florida, resulting in eight direct fatalities and $3.6 billion USD in damage.
+The above-normal 2023 hurricane season occurred during a strong El Niño event. El Niño events tend to be associated with increased vertical wind shear across the Caribbean and tropical Atlantic, yet vertical wind shear during the peak hurricane season months of August–October was well below normal. The primary driver of the above-normal season was likely record warm tropical Atlantic sea surface temperatures (SSTs), which effectively counteracted some of the canonical impacts of El Niño. The extremely warm tropical Atlantic and Caribbean were associated with weaker-than-normal trade winds driven by an anomalously weak subtropical ridge, resulting in a positive wind-evaporation-SST feedback.
+We tested atmospheric circulation sensitivity to SSTs in both the tropical and subtropical Pacific and the Atlantic using the atmospheric component of the Community Earth System Model version 2.3. We found that the extremely warm Atlantic was the primary driver of the reduced vertical wind shear relative to other moderate/strong El Niño events. The concentrated warmth in the eastern tropical Pacific in August–October may have contributed to increased levels of vertical wind shear than if the warming had been more evenly spread across the eastern and central tropical Pacific." 
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: "We thank Christina Patricola, Brian McNoldy, an anonymous reviewer and the editor, Chris Landsea, for helpful comments that have improved the quality of the manuscript. We thank Christina Patricola for providing the ENSO Longitude Index. P. Klotzbach thanks the G. Unger Vetlesen Foundation for financial support that helped fund this research. J. Jones was supported by the NOAA Climate and Global Change Postdoctoral Fellowship Program, administered by UCAR's CPAESS under award #NA21OAR4310383. K. Wood acknowledges support from the Department of Hydrology & Atmospheric Sciences and the College of Science at the University of Arizona. M. Bell was supported by Office of Naval Research award N000142012069. D. Chavas was supported by National Science Foundation Award AGS-1945113. E. Gibney’s research was supported by NOAA's Science Collaboration Program and administered by UCAR's Cooperative Programs for the Advancement of Earth System Science (CPAESS) under award NA21OAR4310383. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooperative Agreement NA19NES4320002." 
+  bibtex: ../Publications/bibtex/Klotzbach_etal_2024_bams.bib
+  pdf: ../Publications/papers/Klotzbach_etal_2024_bams.pdf
+  keyword1: Tropical cyclones
+  keyword2: ENSO
+  keyword3:  Atlantic Ocean
+- id: Paynter_etal_2018.yml
+  year: 2018
+  title: Equilibrium Climate Sensitivity Obtained From Multimillennial Runs of Two GFDL Climate Models
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Paynter, D. and Frölicher, T. L. and Horowitz, L. W. and Silvers, L. G.
+  journal: "Journal of Geophysical Research: Atmospheres" 
+  others:  123 
+  doi: https://doi.org/10.1002/2017JD027885
+  keypoint1: "Two coupled GCMs require multiple millennia to equilibrate to a gradual CO2 doubling and have an ECS ~1 K larger than IPCC estimates"
+  keypoint2: "For the majority of both runs the feedback parameter is near constant, but much smaller than seen following an instantaneous CO2 quadrupling"
+  keypoint3: "Intermodel and temporal differences in feedback parameter are tied to differences in lower atmospheric stability and the vertical velocity"
+  abstract: "Equilibrium climate sensitivity (ECS), defined as the long-term change in global mean surface air temperature in response to doubling atmospheric CO2, is usually computed from short atmospheric simulations over a mixed layer ocean, or inferred using a linear regression over a short-time period of adjustment. We report the actual ECS from multimillenial simulations of two Geophysical Fluid Dynamics Laboratory (GFDL) general circulation models (GCMs), ESM2M, and CM3 of 3.3 K and 4.8 K, respectively. Both values are ~1 K higher than estimates for the same models reported in the Fifth Assessment Report of the Intergovernmental Panel on Climate Change obtained by regressing the Earth’s energy imbalance against temperature. This underestimate is mainly due to changes in the climate feedback parameter (alpha) within the first century after atmospheric CO2 has stabilized. For both GCMs it is possible to estimate ECS with linear regression to within 0.3 K by increasing CO2 at 1% per year to doubling and using years 51–350 after CO2 is constant. We show that changes in alpha differ between the two GCMs and are strongly tied to the changes in both vertical velocity at 500 hPa (ω500) and estimated inversion strength that the GCMs experience during the progression toward the equilibrium. This suggests that while cloud physics parametrizations are important for determining the strength of alpha, the substantially different atmospheric state resulting from a changed sea surface temperature pattern may be of equal importance."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Paynter_etal_2018.bib 
+  pdf: ../Publications/papers/Paynter_etal_2018.pdf
+  keyword1: Coupled Model Development
+  keyword2: ENSO simulation
+  keyword3: 
+- id: Giorgetta_etal_2018.yml
+  year: 2018
+  title: "ICON-A, the Atmosphere Component of the ICON Earth System Model: I. Model Description"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Giorgetta, M. A. and Brokopf, R. and Crueger, T. and Esch, M. and Fiedler, S. and Helmert, J. and Hohenegger, C. and Kornblueh, L. and Köhler, M. and Manzini, E. and Mauritsen, T. and Nam, C. and Raddatz, T. and Rast, S. and Reinert, D. and Sakradzija, M. and Schmidt, H. and Schneck, R. and Schnur, R. and Silvers, L. and Wan, H. and Zängl, G. and Stevens, B.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  10 
+  doi: https://doi.org/10.1029/2017MS001242
+  keypoint1: Physics package for climate modeling is coupled to a nonhydrostatic dynamical core
+  keypoint2: Tuning in five steps to obtain a balanced net radiation at top of atmosphere
+  keypoint3: Overall biases of ICON-A are comparable to ECHAM6.3, but circulation biases remain due to problems with parameterized drag
+  abstract: "Abstract ICON-A is the new icosahedral nonhydrostatic (ICON) atmospheric general circulation model in a configuration using the Max Planck Institute physics package, which originates from the ECHAM6 general circulation model, and has been adapted to account for the changed dynamical core framework. The coupling scheme between dynamics and physics employs a sequential updating by dynamics and physics, and a fixed sequence of the physical processes similar to ECHAM6. To allow a meaningful initial comparison between ICON-A and the established ECHAM6-LR model, a setup with similar, low resolution in terms of number of grid points and levels is chosen. The ICON-A model is tuned on the base of the Atmospheric Model Intercomparison Project (AMIP) experiment aiming primarily at a well balanced top-of atmosphere energy budget to make the model suitable for coupled climate and Earth system modeling. The tuning addresses first the moisture and cloud distribution to achieve the top-of-atmosphere energy balance, followed by the tuning of the parameterized dynamic drag aiming at reduced wind errors in the troposphere. The resulting version of ICON-A has overall biases, which are comparable to those of ECHAM6. Problematic specific biases remain in the vertical distribution of clouds and in the stratospheric circulation, where the winter vortices are too weak. Biases in precipitable water and tropospheric temperature are, however, reduced compared to the ECHAM6. ICON-A will serve as the basis of further development and as the atmosphere component to the coupled model, ICON-Earth system model (ESM)."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Giorgetta_etal_2018.bib 
+  pdf: ../Publications/papers/Giorgetta_etal_2018.pdf
+  keyword1: ICON-A
+  keyword2: atmospheric GCM
+  keyword3: model description
+- id: Zhao_etal_part1_2018.yml
+  year: 2018
+  title: "The GFDL Global Atmosphere and Land Model AM4.0/LM4.0: 1. Simulation Characteristics With Prescribed SSTs"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Zhao, M. and Golaz, J.-C. and Held, I. M. and Guo, H. and Balaji, V. and Benson, R. and Chen, J.-H. and Chen, X. and Donner, L. J. and Dunne, J. P. and Dunne, K. and Durachta, J. and Fan, S.-M. and Freidenreich, S. M. and Garner, S. T. and Ginoux, P. and Harris, L. M. and Horowitz, L. W. and Krasting, J. P. and Langenhorst, A. R. and Liang, Z. and Lin, P. and Lin, S.-J. and Malyshev, S. L. and Mason, E. and Milly, P. C. D. and Ming, Y. and Naik, V. and Paulot, F. and Paynter, D. and Phillipps, P. and Radhakrishnan, A. and Ramaswamy, V. and Robinson, T. and Schwarzkopf, D. and Seman, C. J. and Shevliakova, E. and Shen, Z. and Shin, H. and Silvers, L. G. and Wilson, J. R. and Winton, M. and Wittenberg, A. T. and Wyman, B. and Xiang, B.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  10 
+  doi: https://doi.org/10.1002/2017MS001208
+  keypoint1: A description is provided of the AM4.0/LM4.0 model that will serve as a base for a new set of GFDL/NOAA climate and Earth system models
+  keypoint2: The simulation quality in AMIP mode is described and compared with previous GFDL models and with the CMIP5 archive of AMIP simulations
+  keypoint3: The model’s Cess sensitivity and effective radiative forcing are presented
+  abstract: "In this two-part paper, a description is provided of a version of the AM4.0/LM4.0 atmosphere/land model that will serve as a base for a new set of climate and Earth system models (CM4 and ESM4) under development at NOAA's Geophysical Fluid Dynamics Laboratory (GFDL). This version, with roughly 100 km horizontal resolution and 33 levels in the vertical, contains an aerosol model that generates aerosol fields from emissions and a “light” chemistry mechanism designed to support the aerosol model but with prescribed ozone. In Part 1, the quality of the simulation in AMIP (Atmospheric Model Intercomparison Project) mode—with prescribed sea surface temperatures (SSTs) and sea-ice distribution—is described and compared with previous GFDL models and with the CMIP5 archive of AMIP simulations. The model's Cess sensitivity (response in the top-of-atmosphere radiative flux to uniform warming of SSTs) and effective radiative forcing are also presented. In Part 2, the model formulation is described more fully and key sensitivities to aspects of the model formulation are discussed, along with the approach to model tuning."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Zhao_etal_part1_2018.bib 
+  pdf: ../../Publications/papers/Zhao_etal_part1_2018.pdf
+  keyword1: Global Climate Model Development
+  keyword2: convection and clouds
+  keyword3: atmospheric variability
+- id: Zhao_etal_part2_2018.yml
+  year: 2018
+  authors: Zhao, M. and Golaz, J.-C. and Held, I. M. and Guo, H. and Balaji, V. and Benson, R. and Chen, J.-H. and Chen, X. and Donner, L. J. and Dunne, J. P. and Dunne, K. and Durachta, J. and Fan, S.-M. and Freidenreich, S. M. and Garner, S. T. and Ginoux, P. and Harris, L. M. and Horowitz, L. W. and Krasting, J. P. and Langenhorst, A. R. and Liang, Z. and Lin, P. and Lin, S.-J. and Malyshev, S. L. and Mason, E. and Milly, P. C. D. and Ming, Y. and Naik, V. and Paulot, F. and Paynter, D. and Phillipps, P. and Radhakrishnan, A. and Ramaswamy, V. and Robinson, T. and Schwarzkopf, D. and Seman, C. J. and Shevliakova, E. and Shen, Z. and Shin, H. and Silvers, L. G. and Wilson, J. R. and Winton, M. and Wittenberg, A. T. and Wyman, B. and Xiang, B.
+  title: "The GFDL Global Atmosphere and Land Model AM4.0/LM4.0: 2. Model Description, Sensitivity Studies, and Tuning Strategies"
+  author1: silvers
+  author2: false
+  author3: false
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  10 
+  doi: https://doi.org/10.1002/2017MS001209
+  keypoint1: Part 2 of the AM4.0/LM4.0 paper provides documentation of key changes in individual components from previous GFDL models 
+  keypoint2: Some sensitivities to choices of model formulation and parameter values are presented with emphasis on convection and tuning of clouds
+  keypoint3: We describe the extent to which the effect on aerosol forcing and Cess sensitivity has been taken into account during model development
+  abstract: "In Part 2 of this two-part paper, documentation is provided of key aspects of a version of the AM4.0/LM4.0 atmosphere/land model that will serve as a base for a new set of climate and Earth system models (CM4 and ESM4) under development at NOAA's Geophysical Fluid Dynamics Laboratory (GFDL). The quality of the simulation in AMIP (Atmospheric Model Intercomparison Project) mode has been provided in Part 1. Part 2 provides documentation of key components and some sensitivities to choices of model formulation and values of parameters, highlighting the convection parameterization and orographic gravity wave drag. The approach taken to tune the model's clouds to observations is a particular focal point. Care is taken to describe the extent to which aerosol effective forcing and Cess sensitivity have been tuned through the model development process, both of which are relevant to the ability of the model to simulate the evolution of temperatures over the last century when coupled to an ocean model."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Zhao_etal_part2_2018.bib 
+  pdf: ../Publications/papers/Zhao_etal_part2_2018.pdf
+  keyword1: global climate model development
+  keyword2: climate simulation
+  keyword3: convection and clouds
+- id: Wing_etal_2024.yml
+  year: 2024
+  title: "RCEMIP-II: mock-Walker simulations as phase II of the radiative-convective equilibrium model intercomparison project"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Wing, A. A. and Silvers, L. G. and Reed, K. A.
+  journal: "Geoscientific Model Development" 
+  others:  17
+  doi: https://doi.org/10.1002/2017JD027885
+  doi: https://doi.org/10.5194/gmd-17-6195-2024
+  keypoint1: "Two second phase of the RCEMIP project is documented" 
+  keypoint2: "mock-Walker simulations are proposed as the framework for RCEMIPII"
+  keypoint3: "The experimental configuration is presented for a cloud system resolving model and a general circulation model"
+  abstract: "The radiative–convective equilibrium (RCE) model intercomparison project (RCEMIP) leveraged the simplicity of RCE to focus attention on moist convective processes and their interactions with radiation and circulation across a wide range of model types including cloud-resolving models (CRMs), general circulation models (GCMs), single-column models, global cloud-resolving models, and large-eddy simulations. While several robust results emerged across the spectrum of models that participated in the first phase of RCEMIP (RCEMIP-I), two points that stand out are (1) the strikingly large diversity in simulated climate states and (2) the strong imprint of convective self-aggregation on the climate state. However, the lack of consensus in the structure of self-aggregation and its response to warming is a barrier to understanding. Gaining a deeper understanding of convective aggregation and tropical climate will require reducing the degrees of freedom with which convection can vary. Therefore, we propose phase II of RCEMIP (RCEMIP-II) that utilizes a prescribed sinusoidal sea surface temperature (SST) pattern to provide a constraint on the structure of convection and move one critical step up the model hierarchy. This so-called “mock-Walker” configuration generates features that resemble observed tropical circulations. The specification of the mock-Walker protocol for RCEMIP-II is described, along with example results from one CRM and one GCM. RCEMIP-II will consist of five required simulations: three simulations with the same three mean SSTs as in RCEMIP-I but with an SST gradient and two additional simulations at one of the mean SSTs with different values of the SST gradients. We also test the sensitivity to the imposed SST gradient and the domain size. Under weak SST gradients, unforced self-aggregation emerges across the entire domain, similar to what was found in RCEMIP. As the SST gradient increases, the convective region narrows and is more confined to the warmest SSTs. At warmer mean SSTs and stronger SST gradients, low-frequency variability in the convective aggregation emerges, suggesting that simulations of at least 200 d may be needed to achieve robust equilibrium statistics in this configuration. Simulations with different domain sizes generally have similar mean statistics and convective structures, depending on the value of the SST gradient. The prescribed SST boundary condition is the only difference in the set-up between RCEMIP-II and RCEMIP-I, which enables comparison between the two; however, we also welcome participation in RCEMIP-II from models that did not participate in RCEMIP-I."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Wing_etal_2024.bib 
+  pdf: ../Publications/papers/Wing_etal_2024.pdf
+  keyword1: RCEMIP
+  keyword2: mock-Walker
+  keyword3: multi-model comparison
 

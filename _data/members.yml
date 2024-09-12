@@ -7,6 +7,21 @@
 - id: dehart
   full_name: Jennifer C. DeHart
 
+- id: dolan
+  full_name: Brenda Dolan
+
+- id: silvers
+  full_name: Levi G. Silvers
+
+- id: nieves-jimenez
+  full_name: Angelie Nieves-Jiménez
+
+- id: burgos
+  full_name: Delián Colón Burgos
+
+- id: mesa
+  full_name: Nick Mesa
+
 - id: casas
   full_name: Eleanor Casas
 
@@ -15,6 +30,15 @@
 
 - id: cha
   full_name: Ting-Yu Cha
+
+- id: jenkins
+  full_name: Chandler Jenkins
+
+- id: beard
+  full_name: Lauren Beard
+
+- id: Stell
+  full_name: Meghan Stell
 
 - id: desrosiers
   full_name: Alex DesRosiers
@@ -30,3 +54,7 @@
   
 - id: barbero
   full_name: Tyler Barbero
+
+- id: schluesche 
+  full_name: Isaac Schluesche
+  
